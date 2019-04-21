@@ -1,0 +1,3846 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Cherry-Mx-Bitboard-Re"
+Date "2018-07-23"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5B598EC8
+P 2000 4500
+F 0 "SW1" H 2000 4785 50  0000 C CNN
+F 1 "SW_Push" H 2000 4694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 2000 4700 50  0001 C CNN
+F 3 "" H 2000 4700 50  0001 C CNN
+	1    2000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4500 2250 4500
+Wire Wire Line
+	1800 4500 1750 4500
+Wire Wire Line
+	1750 4500 1750 4600
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5B8A417F
+P 2000 5000
+F 0 "SW2" H 2000 5285 50  0000 C CNN
+F 1 "SW_Push" H 2000 5194 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 2000 5200 50  0001 C CNN
+F 3 "" H 2000 5200 50  0001 C CNN
+	1    2000 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5000 2250 5000
+Connection ~ 2750 5000
+Wire Wire Line
+	1800 5000 1750 5000
+Wire Wire Line
+	1750 5000 1750 5100
+Wire Wire Line
+	2750 5000 2750 5500
+$Comp
+L Connector_Generic:Conn_01x01 Col111
+U 1 1 5B8A669A
+P 9450 2800
+F 0 "Col111" H 9450 2900 50  0000 C CNN
+F 1 "Conn_01x01" V 9325 2712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9450 2800 50  0001 C CNN
+F 3 "~" H 9450 2800 50  0001 C CNN
+	1    9450 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4500 2750 5000
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5B8A821A
+P 3250 4500
+F 0 "SW6" H 3250 4785 50  0000 C CNN
+F 1 "SW_Push" H 3250 4694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 3250 4700 50  0001 C CNN
+F 3 "" H 3250 4700 50  0001 C CNN
+	1    3250 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4500 3000 4500
+Wire Wire Line
+	3000 4500 3000 4600
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5B8B10A5
+P 2000 5500
+F 0 "SW3" H 2000 5785 50  0000 C CNN
+F 1 "SW_Push" H 2000 5694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 2000 5700 50  0001 C CNN
+F 3 "" H 2000 5700 50  0001 C CNN
+	1    2000 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5500 2250 5500
+Wire Wire Line
+	1800 5500 1750 5500
+Wire Wire Line
+	1750 5500 1750 5600
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5B8B1A9F
+P 2000 6000
+F 0 "SW4" H 2000 6285 50  0000 C CNN
+F 1 "SW_Push" H 2000 6194 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 2000 6200 50  0001 C CNN
+F 3 "" H 2000 6200 50  0001 C CNN
+	1    2000 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6000 2250 6000
+Wire Wire Line
+	1800 6000 1750 6000
+Wire Wire Line
+	1750 6000 1750 6100
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5B8B28D1
+P 2000 6500
+F 0 "SW5" H 2000 6785 50  0000 C CNN
+F 1 "SW_Push" H 2000 6694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 2000 6700 50  0001 C CNN
+F 3 "" H 2000 6700 50  0001 C CNN
+	1    2000 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6500 2250 6500
+Wire Wire Line
+	1800 6500 1750 6500
+Wire Wire Line
+	1750 6500 1750 6600
+Connection ~ 2750 5500
+Wire Wire Line
+	2750 5500 2750 6000
+Connection ~ 2750 6000
+Wire Wire Line
+	2750 6000 2750 6500
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5B8B4A00
+P 3250 5000
+F 0 "SW7" H 3250 5285 50  0000 C CNN
+F 1 "SW_Push" H 3250 5194 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 3250 5200 50  0001 C CNN
+F 3 "" H 3250 5200 50  0001 C CNN
+	1    3250 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5000 3000 5000
+Wire Wire Line
+	3000 5000 3000 5100
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5B8B5D1D
+P 3250 5500
+F 0 "SW8" H 3250 5785 50  0000 C CNN
+F 1 "SW_Push" H 3250 5694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 3250 5700 50  0001 C CNN
+F 3 "" H 3250 5700 50  0001 C CNN
+	1    3250 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5500 3000 5500
+Wire Wire Line
+	3000 5500 3000 5600
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5B8B74D3
+P 3250 6000
+F 0 "SW9" H 3250 6285 50  0000 C CNN
+F 1 "SW_Push" H 3250 6194 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 3250 6200 50  0001 C CNN
+F 3 "" H 3250 6200 50  0001 C CNN
+	1    3250 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6000 3000 6000
+Wire Wire Line
+	3000 6000 3000 6100
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5B8B8FF6
+P 3250 6500
+F 0 "SW10" H 3250 6785 50  0000 C CNN
+F 1 "SW_Push" H 3250 6694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 3250 6700 50  0001 C CNN
+F 3 "" H 3250 6700 50  0001 C CNN
+	1    3250 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6500 3000 6500
+Wire Wire Line
+	3000 6500 3000 6600
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5B8BB0E0
+P 4500 4500
+F 0 "SW11" H 4500 4785 50  0000 C CNN
+F 1 "SW_Push" H 4500 4694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 4500 4700 50  0001 C CNN
+F 3 "" H 4500 4700 50  0001 C CNN
+	1    4500 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4500 4250 4500
+Wire Wire Line
+	4250 4500 4250 4600
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5B8BD345
+P 4500 5000
+F 0 "SW12" H 4500 5285 50  0000 C CNN
+F 1 "SW_Push" H 4500 5194 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 4500 5200 50  0001 C CNN
+F 3 "" H 4500 5200 50  0001 C CNN
+	1    4500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5000 4250 5000
+Wire Wire Line
+	4250 5000 4250 5100
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5B8BFA55
+P 4500 5500
+F 0 "SW13" H 4500 5785 50  0000 C CNN
+F 1 "SW_Push" H 4500 5694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 4500 5700 50  0001 C CNN
+F 3 "" H 4500 5700 50  0001 C CNN
+	1    4500 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5500 4250 5500
+Wire Wire Line
+	4250 5500 4250 5600
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5B8C25B4
+P 4500 6000
+F 0 "SW14" H 4500 6285 50  0000 C CNN
+F 1 "SW_Push" H 4500 6194 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 4500 6200 50  0001 C CNN
+F 3 "" H 4500 6200 50  0001 C CNN
+	1    4500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 6000 4250 6000
+Wire Wire Line
+	4250 6000 4250 6100
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5B8C5470
+P 4500 6500
+F 0 "SW15" H 4500 6785 50  0000 C CNN
+F 1 "SW_Push" H 4500 6694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 4500 6700 50  0001 C CNN
+F 3 "" H 4500 6700 50  0001 C CNN
+	1    4500 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 6500 4250 6500
+Wire Wire Line
+	4250 6500 4250 6600
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5B8C8A5A
+P 5750 4500
+F 0 "SW16" H 5750 4785 50  0000 C CNN
+F 1 "SW_Push" H 5750 4694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 5750 4700 50  0001 C CNN
+F 3 "" H 5750 4700 50  0001 C CNN
+	1    5750 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4500 6000 4500
+Wire Wire Line
+	5550 4500 5500 4500
+Wire Wire Line
+	5500 4500 5500 4600
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5B8CC1F5
+P 5750 5000
+F 0 "SW17" H 5750 5285 50  0000 C CNN
+F 1 "SW_Push" H 5750 5194 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 5750 5200 50  0001 C CNN
+F 3 "" H 5750 5200 50  0001 C CNN
+	1    5750 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5000 6000 5000
+Wire Wire Line
+	5550 5000 5500 5000
+Wire Wire Line
+	5500 5000 5500 5100
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5B8CFE85
+P 5750 5500
+F 0 "SW18" H 5750 5785 50  0000 C CNN
+F 1 "SW_Push" H 5750 5694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 5750 5700 50  0001 C CNN
+F 3 "" H 5750 5700 50  0001 C CNN
+	1    5750 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5500 6000 5500
+Wire Wire Line
+	5550 5500 5500 5500
+Wire Wire Line
+	5500 5500 5500 5600
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5B8D4207
+P 5750 6000
+F 0 "SW19" H 5750 6285 50  0000 C CNN
+F 1 "SW_Push" H 5750 6194 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 5750 6200 50  0001 C CNN
+F 3 "" H 5750 6200 50  0001 C CNN
+	1    5750 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 6000 6000 6000
+Wire Wire Line
+	5550 6000 5500 6000
+Wire Wire Line
+	5500 6000 5500 6100
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5B8D89A1
+P 5750 6500
+F 0 "SW20" H 5750 6785 50  0000 C CNN
+F 1 "SW_Push" H 5750 6694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 5750 6700 50  0001 C CNN
+F 3 "" H 5750 6700 50  0001 C CNN
+	1    5750 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 6500 6000 6500
+Wire Wire Line
+	5550 6500 5500 6500
+Wire Wire Line
+	5500 6500 5500 6600
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5B8DD9FC
+P 7000 4500
+F 0 "SW21" H 7000 4785 50  0000 C CNN
+F 1 "SW_Push" H 7000 4694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 7000 4700 50  0001 C CNN
+F 3 "" H 7000 4700 50  0001 C CNN
+	1    7000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4500 7250 4500
+Wire Wire Line
+	6800 4500 6750 4500
+Wire Wire Line
+	6750 4500 6750 4600
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5B8E2B2E
+P 7000 5000
+F 0 "SW22" H 7000 5285 50  0000 C CNN
+F 1 "SW_Push" H 7000 5194 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 7000 5200 50  0001 C CNN
+F 3 "" H 7000 5200 50  0001 C CNN
+	1    7000 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5000 7250 5000
+Wire Wire Line
+	6800 5000 6750 5000
+Wire Wire Line
+	6750 5000 6750 5100
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5B8E858C
+P 7000 5500
+F 0 "SW23" H 7000 5785 50  0000 C CNN
+F 1 "SW_Push" H 7000 5694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 7000 5700 50  0001 C CNN
+F 3 "" H 7000 5700 50  0001 C CNN
+	1    7000 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5500 7250 5500
+Wire Wire Line
+	6800 5500 6750 5500
+Wire Wire Line
+	6750 5500 6750 5600
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5B8EE4AC
+P 7000 6000
+F 0 "SW24" H 7000 6285 50  0000 C CNN
+F 1 "SW_Push" H 7000 6194 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 7000 6200 50  0001 C CNN
+F 3 "" H 7000 6200 50  0001 C CNN
+	1    7000 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 6000 7250 6000
+Wire Wire Line
+	6800 6000 6750 6000
+Wire Wire Line
+	6750 6000 6750 6100
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5B8F47F1
+P 7000 6500
+F 0 "SW25" H 7000 6785 50  0000 C CNN
+F 1 "SW_Push" H 7000 6694 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 7000 6700 50  0001 C CNN
+F 3 "" H 7000 6700 50  0001 C CNN
+	1    7000 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 6500 7250 6500
+Wire Wire Line
+	6800 6500 6750 6500
+Wire Wire Line
+	6750 6500 6750 6600
+Wire Wire Line
+	7750 4500 7750 5000
+Connection ~ 7750 5000
+Wire Wire Line
+	7750 5000 7750 5500
+Connection ~ 7750 5500
+Wire Wire Line
+	7750 5500 7750 6000
+Connection ~ 7750 6000
+Wire Wire Line
+	7750 6000 7750 6500
+Wire Wire Line
+	6500 4500 6500 5000
+Connection ~ 6500 5000
+Wire Wire Line
+	6500 5000 6500 5500
+Connection ~ 6500 5500
+Wire Wire Line
+	6500 5500 6500 6000
+Connection ~ 6500 6000
+Wire Wire Line
+	6500 6000 6500 6500
+Wire Wire Line
+	5250 4500 5250 5000
+Connection ~ 5250 5000
+Wire Wire Line
+	5250 5000 5250 5500
+Connection ~ 5250 5500
+Wire Wire Line
+	5250 5500 5250 6000
+Connection ~ 5250 6000
+Wire Wire Line
+	5250 6000 5250 6500
+Connection ~ 4000 6000
+Wire Wire Line
+	4000 6000 4000 6500
+Connection ~ 4000 5500
+Wire Wire Line
+	4000 5500 4000 6000
+Wire Wire Line
+	4000 4500 4000 5000
+Connection ~ 4000 5000
+Wire Wire Line
+	4000 5000 4000 5500
+$Comp
+L Diode:1N4148W D1
+U 1 1 5B954373
+P 2400 4500
+F 0 "D1" H 2400 4283 50  0000 C CNN
+F 1 "1N4148W" H 2400 4374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 2400 4325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2400 4500 50  0001 C CNN
+	1    2400 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D2
+U 1 1 5B9848B0
+P 2400 5000
+F 0 "D2" H 2400 4783 50  0000 C CNN
+F 1 "1N4148W" H 2400 4874 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 2400 4825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2400 5000 50  0001 C CNN
+	1    2400 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D3
+U 1 1 5B984CE6
+P 2400 5500
+F 0 "D3" H 2400 5283 50  0000 C CNN
+F 1 "1N4148W" H 2400 5374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 2400 5325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2400 5500 50  0001 C CNN
+	1    2400 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D4
+U 1 1 5B984DC6
+P 2400 6000
+F 0 "D4" H 2400 5783 50  0000 C CNN
+F 1 "1N4148W" H 2400 5874 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 2400 5825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2400 6000 50  0001 C CNN
+	1    2400 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D5
+U 1 1 5B984EA6
+P 2400 6500
+F 0 "D5" H 2400 6283 50  0000 C CNN
+F 1 "1N4148W" H 2400 6374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 2400 6325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2400 6500 50  0001 C CNN
+	1    2400 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D6
+U 1 1 5B995CE0
+P 3650 4500
+F 0 "D6" H 3650 4283 50  0000 C CNN
+F 1 "1N4148W" H 3650 4374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 3650 4325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3650 4500 50  0001 C CNN
+	1    3650 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D7
+U 1 1 5B995DDC
+P 3650 5000
+F 0 "D7" H 3650 4783 50  0000 C CNN
+F 1 "1N4148W" H 3650 4874 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 3650 4825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3650 5000 50  0001 C CNN
+	1    3650 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D8
+U 1 1 5B995EC4
+P 3650 5500
+F 0 "D8" H 3650 5283 50  0000 C CNN
+F 1 "1N4148W" H 3650 5374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 3650 5325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3650 5500 50  0001 C CNN
+	1    3650 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D9
+U 1 1 5B995FB0
+P 3650 6000
+F 0 "D9" H 3650 5783 50  0000 C CNN
+F 1 "1N4148W" H 3650 5874 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 3650 5825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3650 6000 50  0001 C CNN
+	1    3650 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D10
+U 1 1 5B996691
+P 3650 6500
+F 0 "D10" H 3650 6283 50  0000 C CNN
+F 1 "1N4148W" H 3650 6374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 3650 6325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3650 6500 50  0001 C CNN
+	1    3650 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D11
+U 1 1 5B99F5F3
+P 4900 4500
+F 0 "D11" H 4900 4283 50  0000 C CNN
+F 1 "1N4148W" H 4900 4374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 4900 4325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4900 4500 50  0001 C CNN
+	1    4900 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D12
+U 1 1 5B99F6F1
+P 4900 5000
+F 0 "D12" H 4900 4783 50  0000 C CNN
+F 1 "1N4148W" H 4900 4874 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 4900 4825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4900 5000 50  0001 C CNN
+	1    4900 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D13
+U 1 1 5B99F7E5
+P 4900 5500
+F 0 "D13" H 4900 5283 50  0000 C CNN
+F 1 "1N4148W" H 4900 5374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 4900 5325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4900 5500 50  0001 C CNN
+	1    4900 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D14
+U 1 1 5B99FE34
+P 4900 6000
+F 0 "D14" H 4900 5783 50  0000 C CNN
+F 1 "1N4148W" H 4900 5874 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 4900 5825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4900 6000 50  0001 C CNN
+	1    4900 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D15
+U 1 1 5B99FF2C
+P 4900 6500
+F 0 "D15" H 4900 6283 50  0000 C CNN
+F 1 "1N4148W" H 4900 6374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 4900 6325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4900 6500 50  0001 C CNN
+	1    4900 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D16
+U 1 1 5B9A8AD7
+P 6150 4500
+F 0 "D16" H 6150 4283 50  0000 C CNN
+F 1 "1N4148W" H 6150 4374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 6150 4325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6150 4500 50  0001 C CNN
+	1    6150 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D17
+U 1 1 5B9A8C9D
+P 6150 5000
+F 0 "D17" H 6150 4783 50  0000 C CNN
+F 1 "1N4148W" H 6150 4874 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 6150 4825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6150 5000 50  0001 C CNN
+	1    6150 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D18
+U 1 1 5B9A90D5
+P 6150 5500
+F 0 "D18" H 6150 5283 50  0000 C CNN
+F 1 "1N4148W" H 6150 5374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 6150 5325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6150 5500 50  0001 C CNN
+	1    6150 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D19
+U 1 1 5B9A91CB
+P 6150 6000
+F 0 "D19" H 6150 5783 50  0000 C CNN
+F 1 "1N4148W" H 6150 5874 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 6150 5825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6150 6000 50  0001 C CNN
+	1    6150 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D20
+U 1 1 5B9A92BF
+P 6150 6500
+F 0 "D20" H 6150 6283 50  0000 C CNN
+F 1 "1N4148W" H 6150 6374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 6150 6325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6150 6500 50  0001 C CNN
+	1    6150 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D21
+U 1 1 5B9B1B98
+P 7400 4500
+F 0 "D21" H 7400 4283 50  0000 C CNN
+F 1 "1N4148W" H 7400 4374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 7400 4325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7400 4500 50  0001 C CNN
+	1    7400 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D22
+U 1 1 5B9B1C94
+P 7400 5000
+F 0 "D22" H 7400 4783 50  0000 C CNN
+F 1 "1N4148W" H 7400 4874 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 7400 4825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7400 5000 50  0001 C CNN
+	1    7400 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D23
+U 1 1 5B9B1D8C
+P 7400 5500
+F 0 "D23" H 7400 5283 50  0000 C CNN
+F 1 "1N4148W" H 7400 5374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 7400 5325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7400 5500 50  0001 C CNN
+	1    7400 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D24
+U 1 1 5B9B501A
+P 7400 6000
+F 0 "D24" H 7400 5783 50  0000 C CNN
+F 1 "1N4148W" H 7400 5874 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 7400 5825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7400 6000 50  0001 C CNN
+	1    7400 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D25
+U 1 1 5B9B510E
+P 7400 6500
+F 0 "D25" H 7400 6283 50  0000 C CNN
+F 1 "1N4148W" H 7400 6374 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 7400 6325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7400 6500 50  0001 C CNN
+	1    7400 6500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 4600 3000 4600
+Connection ~ 5500 4600
+Wire Wire Line
+	1750 5100 3000 5100
+Connection ~ 3000 5100
+Connection ~ 5500 5100
+Wire Wire Line
+	1750 5600 3000 5600
+Connection ~ 3000 5600
+Connection ~ 5500 5600
+Wire Wire Line
+	1750 6100 3000 6100
+Connection ~ 3000 6100
+Connection ~ 5500 6100
+Wire Wire Line
+	1750 6600 3000 6600
+Connection ~ 3000 6600
+Connection ~ 5500 6600
+Wire Wire Line
+	3450 4500 3500 4500
+Wire Wire Line
+	3500 5000 3450 5000
+Wire Wire Line
+	3450 5500 3500 5500
+Wire Wire Line
+	3450 6000 3500 6000
+Wire Wire Line
+	3500 6500 3450 6500
+Wire Wire Line
+	4750 4500 4700 4500
+Wire Wire Line
+	4700 5000 4750 5000
+Wire Wire Line
+	4750 5500 4700 5500
+Wire Wire Line
+	4700 6000 4750 6000
+Wire Wire Line
+	4750 6500 4700 6500
+Connection ~ 3000 4600
+Text GLabel 1650 4600 0    60   Input ~ 0
+Row1
+Text GLabel 1650 5100 0    60   Input ~ 0
+Row2
+Text GLabel 1650 5600 0    60   Input ~ 0
+Row3
+Text GLabel 1650 6100 0    60   Input ~ 0
+Row4
+Text GLabel 1650 6600 0    60   Input ~ 0
+Row5
+$Comp
+L Connector_Generic:Conn_01x01 Row112
+U 1 1 5B8A9836
+P 9150 3300
+F 0 "Row112" H 9150 3400 50  0000 C CNN
+F 1 "Conn_01x01" V 9025 3212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9150 3300 50  0001 C CNN
+F 3 "~" H 9150 3300 50  0001 C CNN
+	1    9150 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 4600 1750 4600
+Connection ~ 1750 4600
+Wire Wire Line
+	1750 5100 1650 5100
+Connection ~ 1750 5100
+Wire Wire Line
+	1750 5600 1650 5600
+Connection ~ 1750 5600
+Wire Wire Line
+	1750 6100 1650 6100
+Connection ~ 1750 6100
+Wire Wire Line
+	1750 6600 1650 6600
+Connection ~ 1750 6600
+Text GLabel 2750 4400 1    60   Input ~ 0
+Col1
+Wire Wire Line
+	2750 4400 2750 4500
+Wire Wire Line
+	2550 4500 2750 4500
+Wire Wire Line
+	2550 5000 2750 5000
+Wire Wire Line
+	2550 5500 2750 5500
+Wire Wire Line
+	2550 6000 2750 6000
+Wire Wire Line
+	2550 6500 2750 6500
+Connection ~ 2750 4500
+Wire Wire Line
+	3800 4500 4000 4500
+Wire Wire Line
+	3800 5000 4000 5000
+Wire Wire Line
+	3800 5500 4000 5500
+Wire Wire Line
+	3800 6000 4000 6000
+Wire Wire Line
+	3800 6500 4000 6500
+Text GLabel 4000 4400 1    60   Input ~ 0
+Col2
+Wire Wire Line
+	4000 4400 4000 4500
+Connection ~ 4000 4500
+Wire Wire Line
+	3000 5100 4250 5100
+Wire Wire Line
+	3000 5600 4250 5600
+Wire Wire Line
+	3000 6100 4250 6100
+Wire Wire Line
+	3000 6600 4250 6600
+Wire Wire Line
+	3000 4600 4250 4600
+Wire Wire Line
+	5050 4500 5250 4500
+Wire Wire Line
+	5050 5000 5250 5000
+Wire Wire Line
+	5050 5500 5250 5500
+Wire Wire Line
+	5050 6000 5250 6000
+Wire Wire Line
+	5050 6500 5250 6500
+Wire Wire Line
+	6300 4500 6500 4500
+Wire Wire Line
+	6300 5000 6500 5000
+Wire Wire Line
+	6300 5500 6500 5500
+Wire Wire Line
+	6300 6000 6500 6000
+Wire Wire Line
+	6300 6500 6500 6500
+Wire Wire Line
+	7550 4500 7750 4500
+Wire Wire Line
+	7550 5000 7750 5000
+Wire Wire Line
+	7550 5500 7750 5500
+Wire Wire Line
+	7550 6000 7750 6000
+Wire Wire Line
+	7550 6500 7750 6500
+Wire Wire Line
+	5500 4600 6750 4600
+Wire Wire Line
+	5500 5100 6750 5100
+Wire Wire Line
+	5500 5600 6750 5600
+Wire Wire Line
+	5500 6100 6750 6100
+Wire Wire Line
+	5500 6600 6750 6600
+Text GLabel 5250 4400 1    60   Input ~ 0
+Col3
+Text GLabel 6500 4400 1    60   Input ~ 0
+Col4
+Text GLabel 7750 4400 1    60   Input ~ 0
+Col5
+Wire Wire Line
+	7750 4400 7750 4500
+Wire Wire Line
+	4250 5100 5500 5100
+Wire Wire Line
+	4250 5600 5500 5600
+Wire Wire Line
+	4250 6100 5500 6100
+Wire Wire Line
+	4250 6600 5500 6600
+Connection ~ 7750 4500
+Wire Wire Line
+	6500 4400 6500 4500
+Connection ~ 6500 4500
+Wire Wire Line
+	5250 4400 5250 4500
+Connection ~ 5250 4500
+Wire Wire Line
+	4250 4600 5500 4600
+Connection ~ 4250 4600
+Connection ~ 4250 5100
+Connection ~ 4250 6600
+Connection ~ 4250 6100
+Connection ~ 4250 5600
+Text GLabel 9000 3200 0    60   Input ~ 0
+Row1
+$Comp
+L Connector_Generic:Conn_01x01 Row113
+U 1 1 5BCDE34F
+P 9950 3100
+F 0 "Row113" H 9950 3200 50  0000 C CNN
+F 1 "Conn_01x01" V 9825 3012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9950 3100 50  0001 C CNN
+F 3 "~" H 9950 3100 50  0001 C CNN
+	1    9950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row114
+U 1 1 5BCDE64E
+P 9950 3300
+F 0 "Row114" H 9950 3200 50  0000 C CNN
+F 1 "Conn_01x01" V 9825 3212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9950 3300 50  0001 C CNN
+F 3 "~" H 9950 3300 50  0001 C CNN
+	1    9950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col112
+U 1 1 5BCE08C8
+P 9650 2800
+F 0 "Col112" H 9650 2700 50  0000 C CNN
+F 1 "Conn_01x01" V 9525 2712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9650 2800 50  0001 C CNN
+F 3 "~" H 9650 2800 50  0001 C CNN
+	1    9650 2800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9550 2650 1    60   Input ~ 0
+Col1
+$Comp
+L Connector_Generic:Conn_01x01 Col113
+U 1 1 5BD12023
+P 9450 3600
+F 0 "Col113" H 9450 3500 50  0000 C CNN
+F 1 "Conn_01x01" V 9325 3512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9450 3600 50  0001 C CNN
+F 3 "~" H 9450 3600 50  0001 C CNN
+	1    9450 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col114
+U 1 1 5BD1233F
+P 9650 3600
+F 0 "Col114" H 9650 3700 50  0000 C CNN
+F 1 "Conn_01x01" V 9525 3512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9650 3600 50  0001 C CNN
+F 3 "~" H 9650 3600 50  0001 C CNN
+	1    9650 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9000 3200 9350 3200
+Connection ~ 9350 3200
+Wire Wire Line
+	9350 3200 9350 3300
+Wire Wire Line
+	9750 3100 9750 3200
+Connection ~ 9750 3200
+Wire Wire Line
+	9750 3200 9750 3300
+Connection ~ 9550 3000
+Wire Wire Line
+	9550 3000 9650 3000
+Wire Wire Line
+	9450 3000 9550 3000
+Connection ~ 9550 3400
+Wire Wire Line
+	9550 3400 9650 3400
+Wire Wire Line
+	9450 3400 9550 3400
+Wire Wire Line
+	9550 3000 9550 3400
+Wire Wire Line
+	9550 2650 9550 3000
+$Comp
+L Connector_Generic:Conn_01x01 Row121
+U 1 1 5BDC1004
+P 10350 3100
+F 0 "Row121" H 10350 3000 50  0000 C CNN
+F 1 "Conn_01x01" V 10225 3012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10350 3100 50  0001 C CNN
+F 3 "~" H 10350 3100 50  0001 C CNN
+	1    10350 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col211
+U 1 1 5BDC100B
+P 10650 2800
+F 0 "Col211" H 10650 2900 50  0000 C CNN
+F 1 "Conn_01x01" V 10525 2712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10650 2800 50  0001 C CNN
+F 3 "~" H 10650 2800 50  0001 C CNN
+	1    10650 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row122
+U 1 1 5BDC1012
+P 10350 3300
+F 0 "Row122" H 10350 3400 50  0000 C CNN
+F 1 "Conn_01x01" V 10225 3212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10350 3300 50  0001 C CNN
+F 3 "~" H 10350 3300 50  0001 C CNN
+	1    10350 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row123
+U 1 1 5BDC101A
+P 11150 3100
+F 0 "Row123" H 11150 3200 50  0000 C CNN
+F 1 "Conn_01x01" V 11025 3012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11150 3100 50  0001 C CNN
+F 3 "~" H 11150 3100 50  0001 C CNN
+	1    11150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row124
+U 1 1 5BDC1021
+P 11150 3300
+F 0 "Row124" H 11150 3200 50  0000 C CNN
+F 1 "Conn_01x01" V 11025 3212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11150 3300 50  0001 C CNN
+F 3 "~" H 11150 3300 50  0001 C CNN
+	1    11150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col212
+U 1 1 5BDC1028
+P 10850 2800
+F 0 "Col212" H 10850 2700 50  0000 C CNN
+F 1 "Conn_01x01" V 10725 2712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10850 2800 50  0001 C CNN
+F 3 "~" H 10850 2800 50  0001 C CNN
+	1    10850 2800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10750 2650 1    60   Input ~ 0
+Col2
+$Comp
+L Connector_Generic:Conn_01x01 Col213
+U 1 1 5BDC1030
+P 10650 3600
+F 0 "Col213" H 10650 3500 50  0000 C CNN
+F 1 "Conn_01x01" V 10525 3512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10650 3600 50  0001 C CNN
+F 3 "~" H 10650 3600 50  0001 C CNN
+	1    10650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col214
+U 1 1 5BDC1037
+P 10850 3600
+F 0 "Col214" H 10850 3700 50  0000 C CNN
+F 1 "Conn_01x01" V 10725 3512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10850 3600 50  0001 C CNN
+F 3 "~" H 10850 3600 50  0001 C CNN
+	1    10850 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 3100 10550 3200
+Connection ~ 10550 3200
+Wire Wire Line
+	10550 3200 10550 3300
+Wire Wire Line
+	10950 3100 10950 3200
+Wire Wire Line
+	10550 3200 10950 3200
+Connection ~ 10950 3200
+Wire Wire Line
+	10950 3200 10950 3300
+Connection ~ 10750 3000
+Wire Wire Line
+	10750 3000 10850 3000
+Wire Wire Line
+	10650 3000 10750 3000
+Connection ~ 10750 3400
+Wire Wire Line
+	10750 3400 10850 3400
+Wire Wire Line
+	10650 3400 10750 3400
+Wire Wire Line
+	10750 3000 10750 3400
+Wire Wire Line
+	10750 2650 10750 3000
+$Comp
+L Connector_Generic:Conn_01x01 Row131
+U 1 1 5BDD8A70
+P 11550 3100
+F 0 "Row131" H 11550 3000 50  0000 C CNN
+F 1 "Conn_01x01" V 11425 3012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11550 3100 50  0001 C CNN
+F 3 "~" H 11550 3100 50  0001 C CNN
+	1    11550 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col311
+U 1 1 5BDD8A77
+P 11850 2800
+F 0 "Col311" H 11850 2900 50  0000 C CNN
+F 1 "Conn_01x01" V 11725 2712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11850 2800 50  0001 C CNN
+F 3 "~" H 11850 2800 50  0001 C CNN
+	1    11850 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row132
+U 1 1 5BDD8A7E
+P 11550 3300
+F 0 "Row132" H 11550 3400 50  0000 C CNN
+F 1 "Conn_01x01" V 11425 3212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11550 3300 50  0001 C CNN
+F 3 "~" H 11550 3300 50  0001 C CNN
+	1    11550 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row133
+U 1 1 5BDD8A86
+P 12350 3100
+F 0 "Row133" H 12350 3200 50  0000 C CNN
+F 1 "Conn_01x01" V 12225 3012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12350 3100 50  0001 C CNN
+F 3 "~" H 12350 3100 50  0001 C CNN
+	1    12350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row134
+U 1 1 5BDD8A8D
+P 12350 3300
+F 0 "Row134" H 12350 3200 50  0000 C CNN
+F 1 "Conn_01x01" V 12225 3212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12350 3300 50  0001 C CNN
+F 3 "~" H 12350 3300 50  0001 C CNN
+	1    12350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col312
+U 1 1 5BDD8A94
+P 12050 2800
+F 0 "Col312" H 12050 2700 50  0000 C CNN
+F 1 "Conn_01x01" V 11925 2712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12050 2800 50  0001 C CNN
+F 3 "~" H 12050 2800 50  0001 C CNN
+	1    12050 2800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11950 2650 1    60   Input ~ 0
+Col3
+$Comp
+L Connector_Generic:Conn_01x01 Col313
+U 1 1 5BDD8A9C
+P 11850 3600
+F 0 "Col313" H 11850 3500 50  0000 C CNN
+F 1 "Conn_01x01" V 11725 3512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11850 3600 50  0001 C CNN
+F 3 "~" H 11850 3600 50  0001 C CNN
+	1    11850 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col314
+U 1 1 5BDD8AA3
+P 12050 3600
+F 0 "Col314" H 12050 3700 50  0000 C CNN
+F 1 "Conn_01x01" V 11925 3512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12050 3600 50  0001 C CNN
+F 3 "~" H 12050 3600 50  0001 C CNN
+	1    12050 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11750 3100 11750 3200
+Wire Wire Line
+	10950 3200 11750 3200
+Connection ~ 11750 3200
+Wire Wire Line
+	11750 3200 11750 3300
+Wire Wire Line
+	12150 3100 12150 3200
+Wire Wire Line
+	11750 3200 12150 3200
+Connection ~ 12150 3200
+Wire Wire Line
+	12150 3200 12150 3300
+Connection ~ 11950 3000
+Wire Wire Line
+	11950 3000 12050 3000
+Wire Wire Line
+	11850 3000 11950 3000
+Connection ~ 11950 3400
+Wire Wire Line
+	11950 3400 12050 3400
+Wire Wire Line
+	11850 3400 11950 3400
+Wire Wire Line
+	11950 3000 11950 3400
+Wire Wire Line
+	11950 2650 11950 3000
+Wire Wire Line
+	9750 3200 10550 3200
+Wire Wire Line
+	9350 3200 9750 3200
+$Comp
+L Connector_Generic:Conn_01x01 Row141
+U 1 1 5BE17C16
+P 12750 3100
+F 0 "Row141" H 12750 3000 50  0000 C CNN
+F 1 "Conn_01x01" V 12625 3012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12750 3100 50  0001 C CNN
+F 3 "~" H 12750 3100 50  0001 C CNN
+	1    12750 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col411
+U 1 1 5BE17C1D
+P 13050 2800
+F 0 "Col411" H 13050 2900 50  0000 C CNN
+F 1 "Conn_01x01" V 12925 2712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13050 2800 50  0001 C CNN
+F 3 "~" H 13050 2800 50  0001 C CNN
+	1    13050 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row142
+U 1 1 5BE17C24
+P 12750 3300
+F 0 "Row142" H 12750 3400 50  0000 C CNN
+F 1 "Conn_01x01" V 12625 3212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12750 3300 50  0001 C CNN
+F 3 "~" H 12750 3300 50  0001 C CNN
+	1    12750 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row143
+U 1 1 5BE17C2B
+P 13550 3100
+F 0 "Row143" H 13550 3200 50  0000 C CNN
+F 1 "Conn_01x01" V 13425 3012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13550 3100 50  0001 C CNN
+F 3 "~" H 13550 3100 50  0001 C CNN
+	1    13550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row144
+U 1 1 5BE17C32
+P 13550 3300
+F 0 "Row144" H 13550 3200 50  0000 C CNN
+F 1 "Conn_01x01" V 13425 3212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13550 3300 50  0001 C CNN
+F 3 "~" H 13550 3300 50  0001 C CNN
+	1    13550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col412
+U 1 1 5BE17C39
+P 13250 2800
+F 0 "Col412" H 13250 2700 50  0000 C CNN
+F 1 "Conn_01x01" V 13125 2712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13250 2800 50  0001 C CNN
+F 3 "~" H 13250 2800 50  0001 C CNN
+	1    13250 2800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 13150 2650 1    60   Input ~ 0
+Col4
+$Comp
+L Connector_Generic:Conn_01x01 Col413
+U 1 1 5BE17C41
+P 13050 3600
+F 0 "Col413" H 13050 3500 50  0000 C CNN
+F 1 "Conn_01x01" V 12925 3512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13050 3600 50  0001 C CNN
+F 3 "~" H 13050 3600 50  0001 C CNN
+	1    13050 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col414
+U 1 1 5BE17C48
+P 13250 3600
+F 0 "Col414" H 13250 3700 50  0000 C CNN
+F 1 "Conn_01x01" V 13125 3512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13250 3600 50  0001 C CNN
+F 3 "~" H 13250 3600 50  0001 C CNN
+	1    13250 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12950 3100 12950 3200
+Wire Wire Line
+	12150 3200 12950 3200
+Connection ~ 12950 3200
+Wire Wire Line
+	12950 3200 12950 3300
+Wire Wire Line
+	13350 3100 13350 3200
+Wire Wire Line
+	12950 3200 13350 3200
+Connection ~ 13350 3200
+Wire Wire Line
+	13350 3200 13350 3300
+Connection ~ 13150 3000
+Wire Wire Line
+	13150 3000 13250 3000
+Wire Wire Line
+	13050 3000 13150 3000
+Connection ~ 13150 3400
+Wire Wire Line
+	13150 3400 13250 3400
+Wire Wire Line
+	13050 3400 13150 3400
+Wire Wire Line
+	13150 3000 13150 3400
+Wire Wire Line
+	13150 2650 13150 3000
+$Comp
+L Connector_Generic:Conn_01x01 Row151
+U 1 1 5BE33A0F
+P 13950 3100
+F 0 "Row151" H 13950 3000 50  0000 C CNN
+F 1 "Conn_01x01" V 13825 3012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13950 3100 50  0001 C CNN
+F 3 "~" H 13950 3100 50  0001 C CNN
+	1    13950 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col511
+U 1 1 5BE33A16
+P 14250 2800
+F 0 "Col511" H 14250 2900 50  0000 C CNN
+F 1 "Conn_01x01" V 14125 2712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14250 2800 50  0001 C CNN
+F 3 "~" H 14250 2800 50  0001 C CNN
+	1    14250 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row152
+U 1 1 5BE33A1D
+P 13950 3300
+F 0 "Row152" H 13950 3400 50  0000 C CNN
+F 1 "Conn_01x01" V 13825 3212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13950 3300 50  0001 C CNN
+F 3 "~" H 13950 3300 50  0001 C CNN
+	1    13950 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row153
+U 1 1 5BE33A24
+P 14750 3100
+F 0 "Row153" H 14750 3200 50  0000 C CNN
+F 1 "Conn_01x01" V 14625 3012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14750 3100 50  0001 C CNN
+F 3 "~" H 14750 3100 50  0001 C CNN
+	1    14750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row154
+U 1 1 5BE33A2B
+P 14750 3300
+F 0 "Row154" H 14750 3200 50  0000 C CNN
+F 1 "Conn_01x01" V 14625 3212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14750 3300 50  0001 C CNN
+F 3 "~" H 14750 3300 50  0001 C CNN
+	1    14750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col512
+U 1 1 5BE33A32
+P 14450 2800
+F 0 "Col512" H 14450 2700 50  0000 C CNN
+F 1 "Conn_01x01" V 14325 2712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14450 2800 50  0001 C CNN
+F 3 "~" H 14450 2800 50  0001 C CNN
+	1    14450 2800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 14350 2650 1    60   Input ~ 0
+Col5
+$Comp
+L Connector_Generic:Conn_01x01 Col513
+U 1 1 5BE33A3A
+P 14250 3600
+F 0 "Col513" H 14250 3500 50  0000 C CNN
+F 1 "Conn_01x01" V 14125 3512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14250 3600 50  0001 C CNN
+F 3 "~" H 14250 3600 50  0001 C CNN
+	1    14250 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col514
+U 1 1 5BE33A41
+P 14450 3600
+F 0 "Col514" H 14450 3700 50  0000 C CNN
+F 1 "Conn_01x01" V 14325 3512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14450 3600 50  0001 C CNN
+F 3 "~" H 14450 3600 50  0001 C CNN
+	1    14450 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14150 3100 14150 3200
+Wire Wire Line
+	13350 3200 14150 3200
+Connection ~ 14150 3200
+Wire Wire Line
+	14150 3200 14150 3300
+Wire Wire Line
+	14550 3100 14550 3200
+Wire Wire Line
+	14150 3200 14550 3200
+Connection ~ 14550 3200
+Wire Wire Line
+	14550 3200 14550 3300
+Connection ~ 14350 3000
+Wire Wire Line
+	14350 3000 14450 3000
+Wire Wire Line
+	14250 3000 14350 3000
+Connection ~ 14350 3400
+Wire Wire Line
+	14350 3400 14450 3400
+Wire Wire Line
+	14250 3400 14350 3400
+Wire Wire Line
+	14350 3000 14350 3400
+Wire Wire Line
+	14350 2650 14350 3000
+$Comp
+L Connector_Generic:Conn_01x01 Row211
+U 1 1 5BE8A588
+P 9150 4300
+F 0 "Row211" H 9150 4200 50  0000 C CNN
+F 1 "Conn_01x01" V 9025 4212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9150 4300 50  0001 C CNN
+F 3 "~" H 9150 4300 50  0001 C CNN
+	1    9150 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col121
+U 1 1 5BE8A58F
+P 9450 4000
+F 0 "Col121" H 9450 4100 50  0000 C CNN
+F 1 "Conn_01x01" V 9325 3912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9450 4000 50  0001 C CNN
+F 3 "~" H 9450 4000 50  0001 C CNN
+	1    9450 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row212
+U 1 1 5BE8A596
+P 9150 4500
+F 0 "Row212" H 9150 4600 50  0000 C CNN
+F 1 "Conn_01x01" V 9025 4412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9150 4500 50  0001 C CNN
+F 3 "~" H 9150 4500 50  0001 C CNN
+	1    9150 4500
+	-1   0    0    1   
+$EndComp
+Text GLabel 9000 4400 0    60   Input ~ 0
+Row2
+$Comp
+L Connector_Generic:Conn_01x01 Row213
+U 1 1 5BE8A59E
+P 9950 4300
+F 0 "Row213" H 9950 4400 50  0000 C CNN
+F 1 "Conn_01x01" V 9825 4212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9950 4300 50  0001 C CNN
+F 3 "~" H 9950 4300 50  0001 C CNN
+	1    9950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row214
+U 1 1 5BE8A5A5
+P 9950 4500
+F 0 "Row214" H 9950 4400 50  0000 C CNN
+F 1 "Conn_01x01" V 9825 4412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9950 4500 50  0001 C CNN
+F 3 "~" H 9950 4500 50  0001 C CNN
+	1    9950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col122
+U 1 1 5BE8A5AC
+P 9650 4000
+F 0 "Col122" H 9650 3900 50  0000 C CNN
+F 1 "Conn_01x01" V 9525 3912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9650 4000 50  0001 C CNN
+F 3 "~" H 9650 4000 50  0001 C CNN
+	1    9650 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col123
+U 1 1 5BE8A5B4
+P 9450 4800
+F 0 "Col123" H 9450 4700 50  0000 C CNN
+F 1 "Conn_01x01" V 9325 4712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9450 4800 50  0001 C CNN
+F 3 "~" H 9450 4800 50  0001 C CNN
+	1    9450 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col124
+U 1 1 5BE8A5BB
+P 9650 4800
+F 0 "Col124" H 9650 4900 50  0000 C CNN
+F 1 "Conn_01x01" V 9525 4712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9650 4800 50  0001 C CNN
+F 3 "~" H 9650 4800 50  0001 C CNN
+	1    9650 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 4300 9350 4400
+Wire Wire Line
+	9000 4400 9350 4400
+Connection ~ 9350 4400
+Wire Wire Line
+	9350 4400 9350 4500
+Wire Wire Line
+	9750 4300 9750 4400
+Connection ~ 9750 4400
+Wire Wire Line
+	9750 4400 9750 4500
+Connection ~ 9550 4200
+Wire Wire Line
+	9550 4200 9650 4200
+Wire Wire Line
+	9450 4200 9550 4200
+Connection ~ 9550 4600
+Wire Wire Line
+	9550 4600 9650 4600
+Wire Wire Line
+	9450 4600 9550 4600
+Wire Wire Line
+	9550 4200 9550 4600
+Wire Wire Line
+	9550 3400 9550 4200
+$Comp
+L Connector_Generic:Conn_01x01 Row221
+U 1 1 5BE8A5D1
+P 10350 4300
+F 0 "Row221" H 10350 4200 50  0000 C CNN
+F 1 "Conn_01x01" V 10225 4212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10350 4300 50  0001 C CNN
+F 3 "~" H 10350 4300 50  0001 C CNN
+	1    10350 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col221
+U 1 1 5BE8A5D8
+P 10650 4000
+F 0 "Col221" H 10650 4100 50  0000 C CNN
+F 1 "Conn_01x01" V 10525 3912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10650 4000 50  0001 C CNN
+F 3 "~" H 10650 4000 50  0001 C CNN
+	1    10650 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row222
+U 1 1 5BE8A5DF
+P 10350 4500
+F 0 "Row222" H 10350 4600 50  0000 C CNN
+F 1 "Conn_01x01" V 10225 4412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10350 4500 50  0001 C CNN
+F 3 "~" H 10350 4500 50  0001 C CNN
+	1    10350 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row223
+U 1 1 5BE8A5E6
+P 11150 4300
+F 0 "Row223" H 11150 4400 50  0000 C CNN
+F 1 "Conn_01x01" V 11025 4212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11150 4300 50  0001 C CNN
+F 3 "~" H 11150 4300 50  0001 C CNN
+	1    11150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row224
+U 1 1 5BE8A5ED
+P 11150 4500
+F 0 "Row224" H 11150 4400 50  0000 C CNN
+F 1 "Conn_01x01" V 11025 4412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11150 4500 50  0001 C CNN
+F 3 "~" H 11150 4500 50  0001 C CNN
+	1    11150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col222
+U 1 1 5BE8A5F4
+P 10850 4000
+F 0 "Col222" H 10850 3900 50  0000 C CNN
+F 1 "Conn_01x01" V 10725 3912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10850 4000 50  0001 C CNN
+F 3 "~" H 10850 4000 50  0001 C CNN
+	1    10850 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col223
+U 1 1 5BE8A5FC
+P 10650 4800
+F 0 "Col223" H 10650 4700 50  0000 C CNN
+F 1 "Conn_01x01" V 10525 4712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10650 4800 50  0001 C CNN
+F 3 "~" H 10650 4800 50  0001 C CNN
+	1    10650 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col224
+U 1 1 5BE8A603
+P 10850 4800
+F 0 "Col224" H 10850 4900 50  0000 C CNN
+F 1 "Conn_01x01" V 10725 4712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10850 4800 50  0001 C CNN
+F 3 "~" H 10850 4800 50  0001 C CNN
+	1    10850 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 4300 10550 4400
+Connection ~ 10550 4400
+Wire Wire Line
+	10550 4400 10550 4500
+Wire Wire Line
+	10950 4300 10950 4400
+Wire Wire Line
+	10550 4400 10950 4400
+Connection ~ 10950 4400
+Wire Wire Line
+	10950 4400 10950 4500
+Connection ~ 10750 4200
+Wire Wire Line
+	10750 4200 10850 4200
+Wire Wire Line
+	10650 4200 10750 4200
+Connection ~ 10750 4600
+Wire Wire Line
+	10750 4600 10850 4600
+Wire Wire Line
+	10650 4600 10750 4600
+Wire Wire Line
+	10750 4200 10750 4600
+Wire Wire Line
+	10750 3400 10750 4200
+$Comp
+L Connector_Generic:Conn_01x01 Row231
+U 1 1 5BE8A619
+P 11550 4300
+F 0 "Row231" H 11550 4200 50  0000 C CNN
+F 1 "Conn_01x01" V 11425 4212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11550 4300 50  0001 C CNN
+F 3 "~" H 11550 4300 50  0001 C CNN
+	1    11550 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col321
+U 1 1 5BE8A620
+P 11850 4000
+F 0 "Col321" H 11850 4100 50  0000 C CNN
+F 1 "Conn_01x01" V 11725 3912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11850 4000 50  0001 C CNN
+F 3 "~" H 11850 4000 50  0001 C CNN
+	1    11850 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row232
+U 1 1 5BE8A627
+P 11550 4500
+F 0 "Row232" H 11550 4600 50  0000 C CNN
+F 1 "Conn_01x01" V 11425 4412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11550 4500 50  0001 C CNN
+F 3 "~" H 11550 4500 50  0001 C CNN
+	1    11550 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row233
+U 1 1 5BE8A62E
+P 12350 4300
+F 0 "Row233" H 12350 4400 50  0000 C CNN
+F 1 "Conn_01x01" V 12225 4212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12350 4300 50  0001 C CNN
+F 3 "~" H 12350 4300 50  0001 C CNN
+	1    12350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row234
+U 1 1 5BE8A635
+P 12350 4500
+F 0 "Row234" H 12350 4400 50  0000 C CNN
+F 1 "Conn_01x01" V 12225 4412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12350 4500 50  0001 C CNN
+F 3 "~" H 12350 4500 50  0001 C CNN
+	1    12350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col322
+U 1 1 5BE8A63C
+P 12050 4000
+F 0 "Col322" H 12050 3900 50  0000 C CNN
+F 1 "Conn_01x01" V 11925 3912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12050 4000 50  0001 C CNN
+F 3 "~" H 12050 4000 50  0001 C CNN
+	1    12050 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col323
+U 1 1 5BE8A644
+P 11850 4800
+F 0 "Col323" H 11850 4700 50  0000 C CNN
+F 1 "Conn_01x01" V 11725 4712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11850 4800 50  0001 C CNN
+F 3 "~" H 11850 4800 50  0001 C CNN
+	1    11850 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col324
+U 1 1 5BE8A64B
+P 12050 4800
+F 0 "Col324" H 12050 4900 50  0000 C CNN
+F 1 "Conn_01x01" V 11925 4712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12050 4800 50  0001 C CNN
+F 3 "~" H 12050 4800 50  0001 C CNN
+	1    12050 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11750 4300 11750 4400
+Wire Wire Line
+	10950 4400 11750 4400
+Connection ~ 11750 4400
+Wire Wire Line
+	11750 4400 11750 4500
+Wire Wire Line
+	12150 4300 12150 4400
+Wire Wire Line
+	11750 4400 12150 4400
+Connection ~ 12150 4400
+Wire Wire Line
+	12150 4400 12150 4500
+Connection ~ 11950 4200
+Wire Wire Line
+	11950 4200 12050 4200
+Wire Wire Line
+	11850 4200 11950 4200
+Connection ~ 11950 4600
+Wire Wire Line
+	11950 4600 12050 4600
+Wire Wire Line
+	11850 4600 11950 4600
+Wire Wire Line
+	11950 4200 11950 4600
+Wire Wire Line
+	11950 3400 11950 4200
+Wire Wire Line
+	9750 4400 10550 4400
+Wire Wire Line
+	9350 4400 9750 4400
+$Comp
+L Connector_Generic:Conn_01x01 Row241
+U 1 1 5BE8A664
+P 12750 4300
+F 0 "Row241" H 12750 4200 50  0000 C CNN
+F 1 "Conn_01x01" V 12625 4212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12750 4300 50  0001 C CNN
+F 3 "~" H 12750 4300 50  0001 C CNN
+	1    12750 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col421
+U 1 1 5BE8A66B
+P 13050 4000
+F 0 "Col421" H 13050 4100 50  0000 C CNN
+F 1 "Conn_01x01" V 12925 3912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13050 4000 50  0001 C CNN
+F 3 "~" H 13050 4000 50  0001 C CNN
+	1    13050 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row242
+U 1 1 5BE8A672
+P 12750 4500
+F 0 "Row242" H 12750 4600 50  0000 C CNN
+F 1 "Conn_01x01" V 12625 4412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12750 4500 50  0001 C CNN
+F 3 "~" H 12750 4500 50  0001 C CNN
+	1    12750 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row243
+U 1 1 5BE8A679
+P 13550 4300
+F 0 "Row243" H 13550 4400 50  0000 C CNN
+F 1 "Conn_01x01" V 13425 4212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13550 4300 50  0001 C CNN
+F 3 "~" H 13550 4300 50  0001 C CNN
+	1    13550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row244
+U 1 1 5BE8A680
+P 13550 4500
+F 0 "Row244" H 13550 4400 50  0000 C CNN
+F 1 "Conn_01x01" V 13425 4412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13550 4500 50  0001 C CNN
+F 3 "~" H 13550 4500 50  0001 C CNN
+	1    13550 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col422
+U 1 1 5BE8A687
+P 13250 4000
+F 0 "Col422" H 13250 3900 50  0000 C CNN
+F 1 "Conn_01x01" V 13125 3912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13250 4000 50  0001 C CNN
+F 3 "~" H 13250 4000 50  0001 C CNN
+	1    13250 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col423
+U 1 1 5BE8A68F
+P 13050 4800
+F 0 "Col423" H 13050 4700 50  0000 C CNN
+F 1 "Conn_01x01" V 12925 4712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13050 4800 50  0001 C CNN
+F 3 "~" H 13050 4800 50  0001 C CNN
+	1    13050 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col424
+U 1 1 5BE8A696
+P 13250 4800
+F 0 "Col424" H 13250 4900 50  0000 C CNN
+F 1 "Conn_01x01" V 13125 4712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13250 4800 50  0001 C CNN
+F 3 "~" H 13250 4800 50  0001 C CNN
+	1    13250 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12950 4300 12950 4400
+Wire Wire Line
+	12150 4400 12950 4400
+Connection ~ 12950 4400
+Wire Wire Line
+	12950 4400 12950 4500
+Wire Wire Line
+	13350 4300 13350 4400
+Wire Wire Line
+	12950 4400 13350 4400
+Connection ~ 13350 4400
+Wire Wire Line
+	13350 4400 13350 4500
+Connection ~ 13150 4200
+Wire Wire Line
+	13150 4200 13250 4200
+Wire Wire Line
+	13050 4200 13150 4200
+Connection ~ 13150 4600
+Wire Wire Line
+	13150 4600 13250 4600
+Wire Wire Line
+	13050 4600 13150 4600
+Wire Wire Line
+	13150 4200 13150 4600
+Wire Wire Line
+	13150 3400 13150 4200
+$Comp
+L Connector_Generic:Conn_01x01 Row251
+U 1 1 5BE8A6AD
+P 13950 4300
+F 0 "Row251" H 13950 4200 50  0000 C CNN
+F 1 "Conn_01x01" V 13825 4212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13950 4300 50  0001 C CNN
+F 3 "~" H 13950 4300 50  0001 C CNN
+	1    13950 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col521
+U 1 1 5BE8A6B4
+P 14250 4000
+F 0 "Col521" H 14250 4100 50  0000 C CNN
+F 1 "Conn_01x01" V 14125 3912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14250 4000 50  0001 C CNN
+F 3 "~" H 14250 4000 50  0001 C CNN
+	1    14250 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row252
+U 1 1 5BE8A6BB
+P 13950 4500
+F 0 "Row252" H 13950 4600 50  0000 C CNN
+F 1 "Conn_01x01" V 13825 4412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13950 4500 50  0001 C CNN
+F 3 "~" H 13950 4500 50  0001 C CNN
+	1    13950 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row253
+U 1 1 5BE8A6C2
+P 14750 4300
+F 0 "Row253" H 14750 4400 50  0000 C CNN
+F 1 "Conn_01x01" V 14625 4212 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14750 4300 50  0001 C CNN
+F 3 "~" H 14750 4300 50  0001 C CNN
+	1    14750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row254
+U 1 1 5BE8A6C9
+P 14750 4500
+F 0 "Row254" H 14750 4400 50  0000 C CNN
+F 1 "Conn_01x01" V 14625 4412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14750 4500 50  0001 C CNN
+F 3 "~" H 14750 4500 50  0001 C CNN
+	1    14750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col522
+U 1 1 5BE8A6D0
+P 14450 4000
+F 0 "Col522" H 14450 3900 50  0000 C CNN
+F 1 "Conn_01x01" V 14325 3912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14450 4000 50  0001 C CNN
+F 3 "~" H 14450 4000 50  0001 C CNN
+	1    14450 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col523
+U 1 1 5BE8A6D8
+P 14250 4800
+F 0 "Col523" H 14250 4700 50  0000 C CNN
+F 1 "Conn_01x01" V 14125 4712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14250 4800 50  0001 C CNN
+F 3 "~" H 14250 4800 50  0001 C CNN
+	1    14250 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col524
+U 1 1 5BE8A6DF
+P 14450 4800
+F 0 "Col524" H 14450 4900 50  0000 C CNN
+F 1 "Conn_01x01" V 14325 4712 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14450 4800 50  0001 C CNN
+F 3 "~" H 14450 4800 50  0001 C CNN
+	1    14450 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14150 4300 14150 4400
+Wire Wire Line
+	13350 4400 14150 4400
+Connection ~ 14150 4400
+Wire Wire Line
+	14150 4400 14150 4500
+Wire Wire Line
+	14550 4300 14550 4400
+Wire Wire Line
+	14150 4400 14550 4400
+Connection ~ 14550 4400
+Wire Wire Line
+	14550 4400 14550 4500
+Connection ~ 14350 4200
+Wire Wire Line
+	14350 4200 14450 4200
+Wire Wire Line
+	14250 4200 14350 4200
+Connection ~ 14350 4600
+Wire Wire Line
+	14350 4600 14450 4600
+Wire Wire Line
+	14250 4600 14350 4600
+Wire Wire Line
+	14350 4200 14350 4600
+Wire Wire Line
+	14350 3400 14350 4200
+$Comp
+L Connector_Generic:Conn_01x01 Row311
+U 1 1 5BECC355
+P 9150 5500
+F 0 "Row311" H 9150 5400 50  0000 C CNN
+F 1 "Conn_01x01" V 9025 5412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9150 5500 50  0001 C CNN
+F 3 "~" H 9150 5500 50  0001 C CNN
+	1    9150 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col131
+U 1 1 5BECC35C
+P 9450 5200
+F 0 "Col131" H 9450 5300 50  0000 C CNN
+F 1 "Conn_01x01" V 9325 5112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9450 5200 50  0001 C CNN
+F 3 "~" H 9450 5200 50  0001 C CNN
+	1    9450 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row312
+U 1 1 5BECC363
+P 9150 5700
+F 0 "Row312" H 9150 5800 50  0000 C CNN
+F 1 "Conn_01x01" V 9025 5612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9150 5700 50  0001 C CNN
+F 3 "~" H 9150 5700 50  0001 C CNN
+	1    9150 5700
+	-1   0    0    1   
+$EndComp
+Text GLabel 9000 5600 0    60   Input ~ 0
+Row3
+$Comp
+L Connector_Generic:Conn_01x01 Row313
+U 1 1 5BECC36B
+P 9950 5500
+F 0 "Row313" H 9950 5600 50  0000 C CNN
+F 1 "Conn_01x01" V 9825 5412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9950 5500 50  0001 C CNN
+F 3 "~" H 9950 5500 50  0001 C CNN
+	1    9950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row314
+U 1 1 5BECC372
+P 9950 5700
+F 0 "Row314" H 9950 5600 50  0000 C CNN
+F 1 "Conn_01x01" V 9825 5612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9950 5700 50  0001 C CNN
+F 3 "~" H 9950 5700 50  0001 C CNN
+	1    9950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col132
+U 1 1 5BECC379
+P 9650 5200
+F 0 "Col132" H 9650 5100 50  0000 C CNN
+F 1 "Conn_01x01" V 9525 5112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9650 5200 50  0001 C CNN
+F 3 "~" H 9650 5200 50  0001 C CNN
+	1    9650 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col133
+U 1 1 5BECC380
+P 9450 6000
+F 0 "Col133" H 9450 5900 50  0000 C CNN
+F 1 "Conn_01x01" V 9325 5912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9450 6000 50  0001 C CNN
+F 3 "~" H 9450 6000 50  0001 C CNN
+	1    9450 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col134
+U 1 1 5BECC387
+P 9650 6000
+F 0 "Col134" H 9650 6100 50  0000 C CNN
+F 1 "Conn_01x01" V 9525 5912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9650 6000 50  0001 C CNN
+F 3 "~" H 9650 6000 50  0001 C CNN
+	1    9650 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 5500 9350 5600
+Wire Wire Line
+	9000 5600 9350 5600
+Connection ~ 9350 5600
+Wire Wire Line
+	9350 5600 9350 5700
+Wire Wire Line
+	9750 5500 9750 5600
+Connection ~ 9750 5600
+Wire Wire Line
+	9750 5600 9750 5700
+Connection ~ 9550 5400
+Wire Wire Line
+	9550 5400 9650 5400
+Wire Wire Line
+	9450 5400 9550 5400
+Connection ~ 9550 5800
+Wire Wire Line
+	9550 5800 9650 5800
+Wire Wire Line
+	9450 5800 9550 5800
+Wire Wire Line
+	9550 5400 9550 5800
+Wire Wire Line
+	9550 4600 9550 5400
+$Comp
+L Connector_Generic:Conn_01x01 Row321
+U 1 1 5BECC39D
+P 10350 5500
+F 0 "Row321" H 10350 5400 50  0000 C CNN
+F 1 "Conn_01x01" V 10225 5412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10350 5500 50  0001 C CNN
+F 3 "~" H 10350 5500 50  0001 C CNN
+	1    10350 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col231
+U 1 1 5BECC3A4
+P 10650 5200
+F 0 "Col231" H 10650 5300 50  0000 C CNN
+F 1 "Conn_01x01" V 10525 5112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10650 5200 50  0001 C CNN
+F 3 "~" H 10650 5200 50  0001 C CNN
+	1    10650 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row322
+U 1 1 5BECC3AB
+P 10350 5700
+F 0 "Row322" H 10350 5800 50  0000 C CNN
+F 1 "Conn_01x01" V 10225 5612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10350 5700 50  0001 C CNN
+F 3 "~" H 10350 5700 50  0001 C CNN
+	1    10350 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row323
+U 1 1 5BECC3B2
+P 11150 5500
+F 0 "Row323" H 11150 5600 50  0000 C CNN
+F 1 "Conn_01x01" V 11025 5412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11150 5500 50  0001 C CNN
+F 3 "~" H 11150 5500 50  0001 C CNN
+	1    11150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row324
+U 1 1 5BECC3B9
+P 11150 5700
+F 0 "Row324" H 11150 5600 50  0000 C CNN
+F 1 "Conn_01x01" V 11025 5612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11150 5700 50  0001 C CNN
+F 3 "~" H 11150 5700 50  0001 C CNN
+	1    11150 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col232
+U 1 1 5BECC3C0
+P 10850 5200
+F 0 "Col232" H 10850 5100 50  0000 C CNN
+F 1 "Conn_01x01" V 10725 5112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10850 5200 50  0001 C CNN
+F 3 "~" H 10850 5200 50  0001 C CNN
+	1    10850 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col233
+U 1 1 5BECC3C7
+P 10650 6000
+F 0 "Col233" H 10650 5900 50  0000 C CNN
+F 1 "Conn_01x01" V 10525 5912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10650 6000 50  0001 C CNN
+F 3 "~" H 10650 6000 50  0001 C CNN
+	1    10650 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col234
+U 1 1 5BECC3CE
+P 10850 6000
+F 0 "Col234" H 10850 6100 50  0000 C CNN
+F 1 "Conn_01x01" V 10725 5912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10850 6000 50  0001 C CNN
+F 3 "~" H 10850 6000 50  0001 C CNN
+	1    10850 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 5500 10550 5600
+Connection ~ 10550 5600
+Wire Wire Line
+	10550 5600 10550 5700
+Wire Wire Line
+	10950 5500 10950 5600
+Wire Wire Line
+	10550 5600 10950 5600
+Connection ~ 10950 5600
+Wire Wire Line
+	10950 5600 10950 5700
+Connection ~ 10750 5400
+Wire Wire Line
+	10750 5400 10850 5400
+Wire Wire Line
+	10650 5400 10750 5400
+Connection ~ 10750 5800
+Wire Wire Line
+	10750 5800 10850 5800
+Wire Wire Line
+	10650 5800 10750 5800
+Wire Wire Line
+	10750 5400 10750 5800
+Wire Wire Line
+	10750 4600 10750 5400
+$Comp
+L Connector_Generic:Conn_01x01 Row331
+U 1 1 5BECC3E4
+P 11550 5500
+F 0 "Row331" H 11550 5400 50  0000 C CNN
+F 1 "Conn_01x01" V 11425 5412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11550 5500 50  0001 C CNN
+F 3 "~" H 11550 5500 50  0001 C CNN
+	1    11550 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col331
+U 1 1 5BECC3EB
+P 11850 5200
+F 0 "Col331" H 11850 5300 50  0000 C CNN
+F 1 "Conn_01x01" V 11725 5112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11850 5200 50  0001 C CNN
+F 3 "~" H 11850 5200 50  0001 C CNN
+	1    11850 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row332
+U 1 1 5BECC3F2
+P 11550 5700
+F 0 "Row332" H 11550 5800 50  0000 C CNN
+F 1 "Conn_01x01" V 11425 5612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11550 5700 50  0001 C CNN
+F 3 "~" H 11550 5700 50  0001 C CNN
+	1    11550 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row333
+U 1 1 5BECC3F9
+P 12350 5500
+F 0 "Row333" H 12350 5600 50  0000 C CNN
+F 1 "Conn_01x01" V 12225 5412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12350 5500 50  0001 C CNN
+F 3 "~" H 12350 5500 50  0001 C CNN
+	1    12350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row334
+U 1 1 5BECC400
+P 12350 5700
+F 0 "Row334" H 12350 5600 50  0000 C CNN
+F 1 "Conn_01x01" V 12225 5612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12350 5700 50  0001 C CNN
+F 3 "~" H 12350 5700 50  0001 C CNN
+	1    12350 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col332
+U 1 1 5BECC407
+P 12050 5200
+F 0 "Col332" H 12050 5100 50  0000 C CNN
+F 1 "Conn_01x01" V 11925 5112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12050 5200 50  0001 C CNN
+F 3 "~" H 12050 5200 50  0001 C CNN
+	1    12050 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col333
+U 1 1 5BECC40E
+P 11850 6000
+F 0 "Col333" H 11850 5900 50  0000 C CNN
+F 1 "Conn_01x01" V 11725 5912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11850 6000 50  0001 C CNN
+F 3 "~" H 11850 6000 50  0001 C CNN
+	1    11850 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col334
+U 1 1 5BECC415
+P 12050 6000
+F 0 "Col334" H 12050 6100 50  0000 C CNN
+F 1 "Conn_01x01" V 11925 5912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12050 6000 50  0001 C CNN
+F 3 "~" H 12050 6000 50  0001 C CNN
+	1    12050 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11750 5500 11750 5600
+Wire Wire Line
+	10950 5600 11750 5600
+Connection ~ 11750 5600
+Wire Wire Line
+	11750 5600 11750 5700
+Wire Wire Line
+	12150 5500 12150 5600
+Wire Wire Line
+	11750 5600 12150 5600
+Connection ~ 12150 5600
+Wire Wire Line
+	12150 5600 12150 5700
+Connection ~ 11950 5400
+Wire Wire Line
+	11950 5400 12050 5400
+Wire Wire Line
+	11850 5400 11950 5400
+Connection ~ 11950 5800
+Wire Wire Line
+	11950 5800 12050 5800
+Wire Wire Line
+	11850 5800 11950 5800
+Wire Wire Line
+	11950 5400 11950 5800
+Wire Wire Line
+	11950 4600 11950 5400
+Wire Wire Line
+	9750 5600 10550 5600
+Wire Wire Line
+	9350 5600 9750 5600
+$Comp
+L Connector_Generic:Conn_01x01 Row341
+U 1 1 5BECC42E
+P 12750 5500
+F 0 "Row341" H 12750 5400 50  0000 C CNN
+F 1 "Conn_01x01" V 12625 5412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12750 5500 50  0001 C CNN
+F 3 "~" H 12750 5500 50  0001 C CNN
+	1    12750 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col431
+U 1 1 5BECC435
+P 13050 5200
+F 0 "Col431" H 13050 5300 50  0000 C CNN
+F 1 "Conn_01x01" V 12925 5112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13050 5200 50  0001 C CNN
+F 3 "~" H 13050 5200 50  0001 C CNN
+	1    13050 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row342
+U 1 1 5BECC43C
+P 12750 5700
+F 0 "Row342" H 12750 5800 50  0000 C CNN
+F 1 "Conn_01x01" V 12625 5612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12750 5700 50  0001 C CNN
+F 3 "~" H 12750 5700 50  0001 C CNN
+	1    12750 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row343
+U 1 1 5BECC443
+P 13550 5500
+F 0 "Row343" H 13550 5600 50  0000 C CNN
+F 1 "Conn_01x01" V 13425 5412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13550 5500 50  0001 C CNN
+F 3 "~" H 13550 5500 50  0001 C CNN
+	1    13550 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row344
+U 1 1 5BECC44A
+P 13550 5700
+F 0 "Row344" H 13550 5600 50  0000 C CNN
+F 1 "Conn_01x01" V 13425 5612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13550 5700 50  0001 C CNN
+F 3 "~" H 13550 5700 50  0001 C CNN
+	1    13550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col432
+U 1 1 5BECC451
+P 13250 5200
+F 0 "Col432" H 13250 5100 50  0000 C CNN
+F 1 "Conn_01x01" V 13125 5112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13250 5200 50  0001 C CNN
+F 3 "~" H 13250 5200 50  0001 C CNN
+	1    13250 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col433
+U 1 1 5BECC458
+P 13050 6000
+F 0 "Col433" H 13050 5900 50  0000 C CNN
+F 1 "Conn_01x01" V 12925 5912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13050 6000 50  0001 C CNN
+F 3 "~" H 13050 6000 50  0001 C CNN
+	1    13050 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col434
+U 1 1 5BECC45F
+P 13250 6000
+F 0 "Col434" H 13250 6100 50  0000 C CNN
+F 1 "Conn_01x01" V 13125 5912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13250 6000 50  0001 C CNN
+F 3 "~" H 13250 6000 50  0001 C CNN
+	1    13250 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12950 5500 12950 5600
+Wire Wire Line
+	12150 5600 12950 5600
+Connection ~ 12950 5600
+Wire Wire Line
+	12950 5600 12950 5700
+Wire Wire Line
+	13350 5500 13350 5600
+Wire Wire Line
+	12950 5600 13350 5600
+Connection ~ 13350 5600
+Wire Wire Line
+	13350 5600 13350 5700
+Connection ~ 13150 5400
+Wire Wire Line
+	13150 5400 13250 5400
+Wire Wire Line
+	13050 5400 13150 5400
+Connection ~ 13150 5800
+Wire Wire Line
+	13150 5800 13250 5800
+Wire Wire Line
+	13050 5800 13150 5800
+Wire Wire Line
+	13150 5400 13150 5800
+Wire Wire Line
+	13150 4600 13150 5400
+$Comp
+L Connector_Generic:Conn_01x01 Row351
+U 1 1 5BECC476
+P 13950 5500
+F 0 "Row351" H 13950 5400 50  0000 C CNN
+F 1 "Conn_01x01" V 13825 5412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13950 5500 50  0001 C CNN
+F 3 "~" H 13950 5500 50  0001 C CNN
+	1    13950 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col531
+U 1 1 5BECC47D
+P 14250 5200
+F 0 "Col531" H 14250 5300 50  0000 C CNN
+F 1 "Conn_01x01" V 14125 5112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14250 5200 50  0001 C CNN
+F 3 "~" H 14250 5200 50  0001 C CNN
+	1    14250 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row352
+U 1 1 5BECC484
+P 13950 5700
+F 0 "Row352" H 13950 5800 50  0000 C CNN
+F 1 "Conn_01x01" V 13825 5612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13950 5700 50  0001 C CNN
+F 3 "~" H 13950 5700 50  0001 C CNN
+	1    13950 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row353
+U 1 1 5BECC48B
+P 14750 5500
+F 0 "Row353" H 14750 5600 50  0000 C CNN
+F 1 "Conn_01x01" V 14625 5412 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14750 5500 50  0001 C CNN
+F 3 "~" H 14750 5500 50  0001 C CNN
+	1    14750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row354
+U 1 1 5BECC492
+P 14750 5700
+F 0 "Row354" H 14750 5600 50  0000 C CNN
+F 1 "Conn_01x01" V 14625 5612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14750 5700 50  0001 C CNN
+F 3 "~" H 14750 5700 50  0001 C CNN
+	1    14750 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col532
+U 1 1 5BECC499
+P 14450 5200
+F 0 "Col532" H 14450 5100 50  0000 C CNN
+F 1 "Conn_01x01" V 14325 5112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14450 5200 50  0001 C CNN
+F 3 "~" H 14450 5200 50  0001 C CNN
+	1    14450 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col533
+U 1 1 5BECC4A0
+P 14250 6000
+F 0 "Col533" H 14250 5900 50  0000 C CNN
+F 1 "Conn_01x01" V 14125 5912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14250 6000 50  0001 C CNN
+F 3 "~" H 14250 6000 50  0001 C CNN
+	1    14250 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col534
+U 1 1 5BECC4A7
+P 14450 6000
+F 0 "Col534" H 14450 6100 50  0000 C CNN
+F 1 "Conn_01x01" V 14325 5912 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14450 6000 50  0001 C CNN
+F 3 "~" H 14450 6000 50  0001 C CNN
+	1    14450 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14150 5500 14150 5600
+Wire Wire Line
+	13350 5600 14150 5600
+Connection ~ 14150 5600
+Wire Wire Line
+	14150 5600 14150 5700
+Wire Wire Line
+	14550 5500 14550 5600
+Wire Wire Line
+	14150 5600 14550 5600
+Connection ~ 14550 5600
+Wire Wire Line
+	14550 5600 14550 5700
+Connection ~ 14350 5400
+Wire Wire Line
+	14350 5400 14450 5400
+Wire Wire Line
+	14250 5400 14350 5400
+Connection ~ 14350 5800
+Wire Wire Line
+	14350 5800 14450 5800
+Wire Wire Line
+	14250 5800 14350 5800
+Wire Wire Line
+	14350 5400 14350 5800
+Wire Wire Line
+	14350 4600 14350 5400
+$Comp
+L Connector_Generic:Conn_01x01 Row411
+U 1 1 5BEE6B20
+P 9150 6700
+F 0 "Row411" H 9150 6600 50  0000 C CNN
+F 1 "Conn_01x01" V 9025 6612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9150 6700 50  0001 C CNN
+F 3 "~" H 9150 6700 50  0001 C CNN
+	1    9150 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col141
+U 1 1 5BEE6B27
+P 9450 6400
+F 0 "Col141" H 9450 6500 50  0000 C CNN
+F 1 "Conn_01x01" V 9325 6312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9450 6400 50  0001 C CNN
+F 3 "~" H 9450 6400 50  0001 C CNN
+	1    9450 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row412
+U 1 1 5BEE6B2E
+P 9150 6900
+F 0 "Row412" H 9150 7000 50  0000 C CNN
+F 1 "Conn_01x01" V 9025 6812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9150 6900 50  0001 C CNN
+F 3 "~" H 9150 6900 50  0001 C CNN
+	1    9150 6900
+	-1   0    0    1   
+$EndComp
+Text GLabel 9000 6800 0    60   Input ~ 0
+Row4
+$Comp
+L Connector_Generic:Conn_01x01 Row413
+U 1 1 5BEE6B36
+P 9950 6700
+F 0 "Row413" H 9950 6800 50  0000 C CNN
+F 1 "Conn_01x01" V 9825 6612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9950 6700 50  0001 C CNN
+F 3 "~" H 9950 6700 50  0001 C CNN
+	1    9950 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row414
+U 1 1 5BEE6B3D
+P 9950 6900
+F 0 "Row414" H 9950 6800 50  0000 C CNN
+F 1 "Conn_01x01" V 9825 6812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9950 6900 50  0001 C CNN
+F 3 "~" H 9950 6900 50  0001 C CNN
+	1    9950 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col142
+U 1 1 5BEE6B44
+P 9650 6400
+F 0 "Col142" H 9650 6300 50  0000 C CNN
+F 1 "Conn_01x01" V 9525 6312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9650 6400 50  0001 C CNN
+F 3 "~" H 9650 6400 50  0001 C CNN
+	1    9650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col143
+U 1 1 5BEE6B4B
+P 9450 7200
+F 0 "Col143" H 9450 7100 50  0000 C CNN
+F 1 "Conn_01x01" V 9325 7112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9450 7200 50  0001 C CNN
+F 3 "~" H 9450 7200 50  0001 C CNN
+	1    9450 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col144
+U 1 1 5BEE6B52
+P 9650 7200
+F 0 "Col144" H 9650 7300 50  0000 C CNN
+F 1 "Conn_01x01" V 9525 7112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9650 7200 50  0001 C CNN
+F 3 "~" H 9650 7200 50  0001 C CNN
+	1    9650 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 6700 9350 6800
+Wire Wire Line
+	9000 6800 9350 6800
+Connection ~ 9350 6800
+Wire Wire Line
+	9350 6800 9350 6900
+Wire Wire Line
+	9750 6700 9750 6800
+Connection ~ 9750 6800
+Wire Wire Line
+	9750 6800 9750 6900
+Connection ~ 9550 6600
+Wire Wire Line
+	9550 6600 9650 6600
+Wire Wire Line
+	9450 6600 9550 6600
+Connection ~ 9550 7000
+Wire Wire Line
+	9550 7000 9650 7000
+Wire Wire Line
+	9450 7000 9550 7000
+Wire Wire Line
+	9550 6600 9550 7000
+Wire Wire Line
+	9550 5800 9550 6600
+$Comp
+L Connector_Generic:Conn_01x01 Row421
+U 1 1 5BEE6B68
+P 10350 6700
+F 0 "Row421" H 10350 6600 50  0000 C CNN
+F 1 "Conn_01x01" V 10225 6612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10350 6700 50  0001 C CNN
+F 3 "~" H 10350 6700 50  0001 C CNN
+	1    10350 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col241
+U 1 1 5BEE6B6F
+P 10650 6400
+F 0 "Col241" H 10650 6500 50  0000 C CNN
+F 1 "Conn_01x01" V 10525 6312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10650 6400 50  0001 C CNN
+F 3 "~" H 10650 6400 50  0001 C CNN
+	1    10650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Rowe422
+U 1 1 5BEE6B76
+P 10350 6900
+F 0 "Rowe422" H 10350 7000 50  0000 C CNN
+F 1 "Conn_01x01" V 10225 6812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10350 6900 50  0001 C CNN
+F 3 "~" H 10350 6900 50  0001 C CNN
+	1    10350 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row423
+U 1 1 5BEE6B7D
+P 11150 6700
+F 0 "Row423" H 11150 6800 50  0000 C CNN
+F 1 "Conn_01x01" V 11025 6612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11150 6700 50  0001 C CNN
+F 3 "~" H 11150 6700 50  0001 C CNN
+	1    11150 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row424
+U 1 1 5BEE6B84
+P 11150 6900
+F 0 "Row424" H 11150 6800 50  0000 C CNN
+F 1 "Conn_01x01" V 11025 6812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11150 6900 50  0001 C CNN
+F 3 "~" H 11150 6900 50  0001 C CNN
+	1    11150 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col242
+U 1 1 5BEE6B8B
+P 10850 6400
+F 0 "Col242" H 10850 6300 50  0000 C CNN
+F 1 "Conn_01x01" V 10725 6312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10850 6400 50  0001 C CNN
+F 3 "~" H 10850 6400 50  0001 C CNN
+	1    10850 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col243
+U 1 1 5BEE6B92
+P 10650 7200
+F 0 "Col243" H 10650 7100 50  0000 C CNN
+F 1 "Conn_01x01" V 10525 7112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10650 7200 50  0001 C CNN
+F 3 "~" H 10650 7200 50  0001 C CNN
+	1    10650 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col244
+U 1 1 5BEE6B99
+P 10850 7200
+F 0 "Col244" H 10850 7300 50  0000 C CNN
+F 1 "Conn_01x01" V 10725 7112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10850 7200 50  0001 C CNN
+F 3 "~" H 10850 7200 50  0001 C CNN
+	1    10850 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 6700 10550 6800
+Connection ~ 10550 6800
+Wire Wire Line
+	10550 6800 10550 6900
+Wire Wire Line
+	10950 6700 10950 6800
+Wire Wire Line
+	10550 6800 10950 6800
+Connection ~ 10950 6800
+Wire Wire Line
+	10950 6800 10950 6900
+Connection ~ 10750 6600
+Wire Wire Line
+	10750 6600 10850 6600
+Wire Wire Line
+	10650 6600 10750 6600
+Connection ~ 10750 7000
+Wire Wire Line
+	10750 7000 10850 7000
+Wire Wire Line
+	10650 7000 10750 7000
+Wire Wire Line
+	10750 6600 10750 7000
+Wire Wire Line
+	10750 5800 10750 6600
+$Comp
+L Connector_Generic:Conn_01x01 Row431
+U 1 1 5BEE6BAF
+P 11550 6700
+F 0 "Row431" H 11550 6600 50  0000 C CNN
+F 1 "Conn_01x01" V 11425 6612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11550 6700 50  0001 C CNN
+F 3 "~" H 11550 6700 50  0001 C CNN
+	1    11550 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col341
+U 1 1 5BEE6BB6
+P 11850 6400
+F 0 "Col341" H 11850 6500 50  0000 C CNN
+F 1 "Conn_01x01" V 11725 6312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11850 6400 50  0001 C CNN
+F 3 "~" H 11850 6400 50  0001 C CNN
+	1    11850 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row432
+U 1 1 5BEE6BBD
+P 11550 6900
+F 0 "Row432" H 11550 7000 50  0000 C CNN
+F 1 "Conn_01x01" V 11425 6812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11550 6900 50  0001 C CNN
+F 3 "~" H 11550 6900 50  0001 C CNN
+	1    11550 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row433
+U 1 1 5BEE6BC4
+P 12350 6700
+F 0 "Row433" H 12350 6800 50  0000 C CNN
+F 1 "Conn_01x01" V 12225 6612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12350 6700 50  0001 C CNN
+F 3 "~" H 12350 6700 50  0001 C CNN
+	1    12350 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row434
+U 1 1 5BEE6BCB
+P 12350 6900
+F 0 "Row434" H 12350 6800 50  0000 C CNN
+F 1 "Conn_01x01" V 12225 6812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12350 6900 50  0001 C CNN
+F 3 "~" H 12350 6900 50  0001 C CNN
+	1    12350 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col342
+U 1 1 5BEE6BD2
+P 12050 6400
+F 0 "Col342" H 12050 6300 50  0000 C CNN
+F 1 "Conn_01x01" V 11925 6312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12050 6400 50  0001 C CNN
+F 3 "~" H 12050 6400 50  0001 C CNN
+	1    12050 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col343
+U 1 1 5BEE6BD9
+P 11850 7200
+F 0 "Col343" H 11850 7100 50  0000 C CNN
+F 1 "Conn_01x01" V 11725 7112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11850 7200 50  0001 C CNN
+F 3 "~" H 11850 7200 50  0001 C CNN
+	1    11850 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col344
+U 1 1 5BEE6BE0
+P 12050 7200
+F 0 "Col344" H 12050 7300 50  0000 C CNN
+F 1 "Conn_01x01" V 11925 7112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12050 7200 50  0001 C CNN
+F 3 "~" H 12050 7200 50  0001 C CNN
+	1    12050 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11750 6700 11750 6800
+Wire Wire Line
+	10950 6800 11750 6800
+Connection ~ 11750 6800
+Wire Wire Line
+	11750 6800 11750 6900
+Wire Wire Line
+	12150 6700 12150 6800
+Wire Wire Line
+	11750 6800 12150 6800
+Connection ~ 12150 6800
+Wire Wire Line
+	12150 6800 12150 6900
+Connection ~ 11950 6600
+Wire Wire Line
+	11950 6600 12050 6600
+Wire Wire Line
+	11850 6600 11950 6600
+Connection ~ 11950 7000
+Wire Wire Line
+	11950 7000 12050 7000
+Wire Wire Line
+	11850 7000 11950 7000
+Wire Wire Line
+	11950 6600 11950 7000
+Wire Wire Line
+	11950 5800 11950 6600
+Wire Wire Line
+	9750 6800 10550 6800
+Wire Wire Line
+	9350 6800 9750 6800
+$Comp
+L Connector_Generic:Conn_01x01 Row441
+U 1 1 5BEE6BF9
+P 12750 6700
+F 0 "Row441" H 12750 6600 50  0000 C CNN
+F 1 "Conn_01x01" V 12625 6612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12750 6700 50  0001 C CNN
+F 3 "~" H 12750 6700 50  0001 C CNN
+	1    12750 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col441
+U 1 1 5BEE6C00
+P 13050 6400
+F 0 "Col441" H 13050 6500 50  0000 C CNN
+F 1 "Conn_01x01" V 12925 6312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13050 6400 50  0001 C CNN
+F 3 "~" H 13050 6400 50  0001 C CNN
+	1    13050 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row442
+U 1 1 5BEE6C07
+P 12750 6900
+F 0 "Row442" H 12750 7000 50  0000 C CNN
+F 1 "Conn_01x01" V 12625 6812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12750 6900 50  0001 C CNN
+F 3 "~" H 12750 6900 50  0001 C CNN
+	1    12750 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row443
+U 1 1 5BEE6C0E
+P 13550 6700
+F 0 "Row443" H 13550 6800 50  0000 C CNN
+F 1 "Conn_01x01" V 13425 6612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13550 6700 50  0001 C CNN
+F 3 "~" H 13550 6700 50  0001 C CNN
+	1    13550 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row444
+U 1 1 5BEE6C15
+P 13550 6900
+F 0 "Row444" H 13550 6800 50  0000 C CNN
+F 1 "Conn_01x01" V 13425 6812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13550 6900 50  0001 C CNN
+F 3 "~" H 13550 6900 50  0001 C CNN
+	1    13550 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col442
+U 1 1 5BEE6C1C
+P 13250 6400
+F 0 "Col442" H 13250 6300 50  0000 C CNN
+F 1 "Conn_01x01" V 13125 6312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13250 6400 50  0001 C CNN
+F 3 "~" H 13250 6400 50  0001 C CNN
+	1    13250 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col443
+U 1 1 5BEE6C23
+P 13050 7200
+F 0 "Col443" H 13050 7100 50  0000 C CNN
+F 1 "Conn_01x01" V 12925 7112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13050 7200 50  0001 C CNN
+F 3 "~" H 13050 7200 50  0001 C CNN
+	1    13050 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col444
+U 1 1 5BEE6C2A
+P 13250 7200
+F 0 "Col444" H 13250 7300 50  0000 C CNN
+F 1 "Conn_01x01" V 13125 7112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13250 7200 50  0001 C CNN
+F 3 "~" H 13250 7200 50  0001 C CNN
+	1    13250 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12950 6700 12950 6800
+Wire Wire Line
+	12150 6800 12950 6800
+Connection ~ 12950 6800
+Wire Wire Line
+	12950 6800 12950 6900
+Wire Wire Line
+	13350 6700 13350 6800
+Wire Wire Line
+	12950 6800 13350 6800
+Connection ~ 13350 6800
+Wire Wire Line
+	13350 6800 13350 6900
+Connection ~ 13150 6600
+Wire Wire Line
+	13150 6600 13250 6600
+Wire Wire Line
+	13050 6600 13150 6600
+Connection ~ 13150 7000
+Wire Wire Line
+	13150 7000 13250 7000
+Wire Wire Line
+	13050 7000 13150 7000
+Wire Wire Line
+	13150 6600 13150 7000
+Wire Wire Line
+	13150 5800 13150 6600
+$Comp
+L Connector_Generic:Conn_01x01 Row451
+U 1 1 5BEE6C41
+P 13950 6700
+F 0 "Row451" H 13950 6600 50  0000 C CNN
+F 1 "Conn_01x01" V 13825 6612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13950 6700 50  0001 C CNN
+F 3 "~" H 13950 6700 50  0001 C CNN
+	1    13950 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col541
+U 1 1 5BEE6C48
+P 14250 6400
+F 0 "Col541" H 14250 6500 50  0000 C CNN
+F 1 "Conn_01x01" V 14125 6312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14250 6400 50  0001 C CNN
+F 3 "~" H 14250 6400 50  0001 C CNN
+	1    14250 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row452
+U 1 1 5BEE6C4F
+P 13950 6900
+F 0 "Row452" H 13950 7000 50  0000 C CNN
+F 1 "Conn_01x01" V 13825 6812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13950 6900 50  0001 C CNN
+F 3 "~" H 13950 6900 50  0001 C CNN
+	1    13950 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row453
+U 1 1 5BEE6C56
+P 14750 6700
+F 0 "Row453" H 14750 6800 50  0000 C CNN
+F 1 "Conn_01x01" V 14625 6612 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14750 6700 50  0001 C CNN
+F 3 "~" H 14750 6700 50  0001 C CNN
+	1    14750 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row454
+U 1 1 5BEE6C5D
+P 14750 6900
+F 0 "Row454" H 14750 6800 50  0000 C CNN
+F 1 "Conn_01x01" V 14625 6812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14750 6900 50  0001 C CNN
+F 3 "~" H 14750 6900 50  0001 C CNN
+	1    14750 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col542
+U 1 1 5BEE6C64
+P 14450 6400
+F 0 "Col542" H 14450 6300 50  0000 C CNN
+F 1 "Conn_01x01" V 14325 6312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14450 6400 50  0001 C CNN
+F 3 "~" H 14450 6400 50  0001 C CNN
+	1    14450 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col543
+U 1 1 5BEE6C6B
+P 14250 7200
+F 0 "Col543" H 14250 7100 50  0000 C CNN
+F 1 "Conn_01x01" V 14125 7112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14250 7200 50  0001 C CNN
+F 3 "~" H 14250 7200 50  0001 C CNN
+	1    14250 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col544
+U 1 1 5BEE6C72
+P 14450 7200
+F 0 "Col544" H 14450 7300 50  0000 C CNN
+F 1 "Conn_01x01" V 14325 7112 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14450 7200 50  0001 C CNN
+F 3 "~" H 14450 7200 50  0001 C CNN
+	1    14450 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14150 6700 14150 6800
+Wire Wire Line
+	13350 6800 14150 6800
+Connection ~ 14150 6800
+Wire Wire Line
+	14150 6800 14150 6900
+Wire Wire Line
+	14550 6700 14550 6800
+Wire Wire Line
+	14150 6800 14550 6800
+Connection ~ 14550 6800
+Wire Wire Line
+	14550 6800 14550 6900
+Connection ~ 14350 6600
+Wire Wire Line
+	14350 6600 14450 6600
+Wire Wire Line
+	14250 6600 14350 6600
+Connection ~ 14350 7000
+Wire Wire Line
+	14350 7000 14450 7000
+Wire Wire Line
+	14250 7000 14350 7000
+Wire Wire Line
+	14350 6600 14350 7000
+Wire Wire Line
+	14350 5800 14350 6600
+$Comp
+L Connector_Generic:Conn_01x01 Row511
+U 1 1 5BF09A20
+P 9150 7900
+F 0 "Row511" H 9150 7800 50  0000 C CNN
+F 1 "Conn_01x01" V 9025 7812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9150 7900 50  0001 C CNN
+F 3 "~" H 9150 7900 50  0001 C CNN
+	1    9150 7900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col151
+U 1 1 5BF09A27
+P 9450 7600
+F 0 "Col151" H 9450 7700 50  0000 C CNN
+F 1 "Conn_01x01" V 9325 7512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9450 7600 50  0001 C CNN
+F 3 "~" H 9450 7600 50  0001 C CNN
+	1    9450 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row512
+U 1 1 5BF09A2E
+P 9150 8100
+F 0 "Row512" H 9150 8200 50  0000 C CNN
+F 1 "Conn_01x01" V 9025 8012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9150 8100 50  0001 C CNN
+F 3 "~" H 9150 8100 50  0001 C CNN
+	1    9150 8100
+	-1   0    0    1   
+$EndComp
+Text GLabel 9000 8000 0    60   Input ~ 0
+Row5
+$Comp
+L Connector_Generic:Conn_01x01 Row513
+U 1 1 5BF09A36
+P 9950 7900
+F 0 "Row513" H 9950 8000 50  0000 C CNN
+F 1 "Conn_01x01" V 9825 7812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9950 7900 50  0001 C CNN
+F 3 "~" H 9950 7900 50  0001 C CNN
+	1    9950 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row514
+U 1 1 5BF09A3D
+P 9950 8100
+F 0 "Row514" H 9950 8000 50  0000 C CNN
+F 1 "Conn_01x01" V 9825 8012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9950 8100 50  0001 C CNN
+F 3 "~" H 9950 8100 50  0001 C CNN
+	1    9950 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col152
+U 1 1 5BF09A44
+P 9650 7600
+F 0 "Col152" H 9650 7500 50  0000 C CNN
+F 1 "Conn_01x01" V 9525 7512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9650 7600 50  0001 C CNN
+F 3 "~" H 9650 7600 50  0001 C CNN
+	1    9650 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col153
+U 1 1 5BF09A4B
+P 9450 8400
+F 0 "Col153" H 9450 8300 50  0000 C CNN
+F 1 "Conn_01x01" V 9325 8312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9450 8400 50  0001 C CNN
+F 3 "~" H 9450 8400 50  0001 C CNN
+	1    9450 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col154
+U 1 1 5BF09A52
+P 9650 8400
+F 0 "Col154" H 9650 8500 50  0000 C CNN
+F 1 "Conn_01x01" V 9525 8312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9650 8400 50  0001 C CNN
+F 3 "~" H 9650 8400 50  0001 C CNN
+	1    9650 8400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 7900 9350 8000
+Wire Wire Line
+	9000 8000 9350 8000
+Connection ~ 9350 8000
+Wire Wire Line
+	9350 8000 9350 8100
+Wire Wire Line
+	9750 7900 9750 8000
+Connection ~ 9750 8000
+Wire Wire Line
+	9750 8000 9750 8100
+Connection ~ 9550 7800
+Wire Wire Line
+	9550 7800 9650 7800
+Wire Wire Line
+	9450 7800 9550 7800
+Connection ~ 9550 8200
+Wire Wire Line
+	9550 8200 9650 8200
+Wire Wire Line
+	9450 8200 9550 8200
+Wire Wire Line
+	9550 7800 9550 8200
+Wire Wire Line
+	9550 7000 9550 7800
+$Comp
+L Connector_Generic:Conn_01x01 Row521
+U 1 1 5BF09A68
+P 10350 7900
+F 0 "Row521" H 10350 7800 50  0000 C CNN
+F 1 "Conn_01x01" V 10225 7812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10350 7900 50  0001 C CNN
+F 3 "~" H 10350 7900 50  0001 C CNN
+	1    10350 7900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col251
+U 1 1 5BF09A6F
+P 10650 7600
+F 0 "Col251" H 10650 7700 50  0000 C CNN
+F 1 "Conn_01x01" V 10525 7512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10650 7600 50  0001 C CNN
+F 3 "~" H 10650 7600 50  0001 C CNN
+	1    10650 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row522
+U 1 1 5BF09A76
+P 10350 8100
+F 0 "Row522" H 10350 8200 50  0000 C CNN
+F 1 "Conn_01x01" V 10225 8012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10350 8100 50  0001 C CNN
+F 3 "~" H 10350 8100 50  0001 C CNN
+	1    10350 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row523
+U 1 1 5BF09A7D
+P 11150 7900
+F 0 "Row523" H 11150 8000 50  0000 C CNN
+F 1 "Conn_01x01" V 11025 7812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11150 7900 50  0001 C CNN
+F 3 "~" H 11150 7900 50  0001 C CNN
+	1    11150 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row524
+U 1 1 5BF09A84
+P 11150 8100
+F 0 "Row524" H 11150 8000 50  0000 C CNN
+F 1 "Conn_01x01" V 11025 8012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11150 8100 50  0001 C CNN
+F 3 "~" H 11150 8100 50  0001 C CNN
+	1    11150 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col252
+U 1 1 5BF09A8B
+P 10850 7600
+F 0 "Col252" H 10850 7500 50  0000 C CNN
+F 1 "Conn_01x01" V 10725 7512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10850 7600 50  0001 C CNN
+F 3 "~" H 10850 7600 50  0001 C CNN
+	1    10850 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col253
+U 1 1 5BF09A92
+P 10650 8400
+F 0 "Col253" H 10650 8300 50  0000 C CNN
+F 1 "Conn_01x01" V 10525 8312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10650 8400 50  0001 C CNN
+F 3 "~" H 10650 8400 50  0001 C CNN
+	1    10650 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col254
+U 1 1 5BF09A99
+P 10850 8400
+F 0 "Col254" H 10850 8500 50  0000 C CNN
+F 1 "Conn_01x01" V 10725 8312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 10850 8400 50  0001 C CNN
+F 3 "~" H 10850 8400 50  0001 C CNN
+	1    10850 8400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 7900 10550 8000
+Connection ~ 10550 8000
+Wire Wire Line
+	10550 8000 10550 8100
+Wire Wire Line
+	10950 7900 10950 8000
+Wire Wire Line
+	10550 8000 10950 8000
+Connection ~ 10950 8000
+Wire Wire Line
+	10950 8000 10950 8100
+Connection ~ 10750 7800
+Wire Wire Line
+	10750 7800 10850 7800
+Wire Wire Line
+	10650 7800 10750 7800
+Connection ~ 10750 8200
+Wire Wire Line
+	10750 8200 10850 8200
+Wire Wire Line
+	10650 8200 10750 8200
+Wire Wire Line
+	10750 7800 10750 8200
+Wire Wire Line
+	10750 7000 10750 7800
+$Comp
+L Connector_Generic:Conn_01x01 Row531
+U 1 1 5BF09AAF
+P 11550 7900
+F 0 "Row531" H 11550 7800 50  0000 C CNN
+F 1 "Conn_01x01" V 11425 7812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11550 7900 50  0001 C CNN
+F 3 "~" H 11550 7900 50  0001 C CNN
+	1    11550 7900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col351
+U 1 1 5BF09AB6
+P 11850 7600
+F 0 "Col351" H 11850 7700 50  0000 C CNN
+F 1 "Conn_01x01" V 11725 7512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11850 7600 50  0001 C CNN
+F 3 "~" H 11850 7600 50  0001 C CNN
+	1    11850 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row532
+U 1 1 5BF09ABD
+P 11550 8100
+F 0 "Row532" H 11550 8200 50  0000 C CNN
+F 1 "Conn_01x01" V 11425 8012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11550 8100 50  0001 C CNN
+F 3 "~" H 11550 8100 50  0001 C CNN
+	1    11550 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row533
+U 1 1 5BF09AC4
+P 12350 7900
+F 0 "Row533" H 12350 8000 50  0000 C CNN
+F 1 "Conn_01x01" V 12225 7812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12350 7900 50  0001 C CNN
+F 3 "~" H 12350 7900 50  0001 C CNN
+	1    12350 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row534
+U 1 1 5BF09ACB
+P 12350 8100
+F 0 "Row534" H 12350 8000 50  0000 C CNN
+F 1 "Conn_01x01" V 12225 8012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12350 8100 50  0001 C CNN
+F 3 "~" H 12350 8100 50  0001 C CNN
+	1    12350 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col352
+U 1 1 5BF09AD2
+P 12050 7600
+F 0 "Col352" H 12050 7500 50  0000 C CNN
+F 1 "Conn_01x01" V 11925 7512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12050 7600 50  0001 C CNN
+F 3 "~" H 12050 7600 50  0001 C CNN
+	1    12050 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col353
+U 1 1 5BF09AD9
+P 11850 8400
+F 0 "Col353" H 11850 8300 50  0000 C CNN
+F 1 "Conn_01x01" V 11725 8312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 11850 8400 50  0001 C CNN
+F 3 "~" H 11850 8400 50  0001 C CNN
+	1    11850 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col354
+U 1 1 5BF09AE0
+P 12050 8400
+F 0 "Col354" H 12050 8500 50  0000 C CNN
+F 1 "Conn_01x01" V 11925 8312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12050 8400 50  0001 C CNN
+F 3 "~" H 12050 8400 50  0001 C CNN
+	1    12050 8400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11750 7900 11750 8000
+Wire Wire Line
+	10950 8000 11750 8000
+Connection ~ 11750 8000
+Wire Wire Line
+	11750 8000 11750 8100
+Wire Wire Line
+	12150 7900 12150 8000
+Wire Wire Line
+	11750 8000 12150 8000
+Connection ~ 12150 8000
+Wire Wire Line
+	12150 8000 12150 8100
+Connection ~ 11950 7800
+Wire Wire Line
+	11950 7800 12050 7800
+Wire Wire Line
+	11850 7800 11950 7800
+Connection ~ 11950 8200
+Wire Wire Line
+	11950 8200 12050 8200
+Wire Wire Line
+	11850 8200 11950 8200
+Wire Wire Line
+	11950 7800 11950 8200
+Wire Wire Line
+	11950 7000 11950 7800
+Wire Wire Line
+	9750 8000 10550 8000
+Wire Wire Line
+	9350 8000 9750 8000
+$Comp
+L Connector_Generic:Conn_01x01 Row541
+U 1 1 5BF09AF9
+P 12750 7900
+F 0 "Row541" H 12750 7800 50  0000 C CNN
+F 1 "Conn_01x01" V 12625 7812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12750 7900 50  0001 C CNN
+F 3 "~" H 12750 7900 50  0001 C CNN
+	1    12750 7900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col451
+U 1 1 5BF09B00
+P 13050 7600
+F 0 "Col451" H 13050 7700 50  0000 C CNN
+F 1 "Conn_01x01" V 12925 7512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13050 7600 50  0001 C CNN
+F 3 "~" H 13050 7600 50  0001 C CNN
+	1    13050 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row542
+U 1 1 5BF09B07
+P 12750 8100
+F 0 "Row542" H 12750 8200 50  0000 C CNN
+F 1 "Conn_01x01" V 12625 8012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 12750 8100 50  0001 C CNN
+F 3 "~" H 12750 8100 50  0001 C CNN
+	1    12750 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row543
+U 1 1 5BF09B0E
+P 13550 7900
+F 0 "Row543" H 13550 8000 50  0000 C CNN
+F 1 "Conn_01x01" V 13425 7812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13550 7900 50  0001 C CNN
+F 3 "~" H 13550 7900 50  0001 C CNN
+	1    13550 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row544
+U 1 1 5BF09B15
+P 13550 8100
+F 0 "Row544" H 13550 8000 50  0000 C CNN
+F 1 "Conn_01x01" V 13425 8012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13550 8100 50  0001 C CNN
+F 3 "~" H 13550 8100 50  0001 C CNN
+	1    13550 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col452
+U 1 1 5BF09B1C
+P 13250 7600
+F 0 "Col452" H 13250 7500 50  0000 C CNN
+F 1 "Conn_01x01" V 13125 7512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13250 7600 50  0001 C CNN
+F 3 "~" H 13250 7600 50  0001 C CNN
+	1    13250 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col453
+U 1 1 5BF09B23
+P 13050 8400
+F 0 "Col453" H 13050 8300 50  0000 C CNN
+F 1 "Conn_01x01" V 12925 8312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13050 8400 50  0001 C CNN
+F 3 "~" H 13050 8400 50  0001 C CNN
+	1    13050 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col454
+U 1 1 5BF09B2A
+P 13250 8400
+F 0 "Col454" H 13250 8500 50  0000 C CNN
+F 1 "Conn_01x01" V 13125 8312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13250 8400 50  0001 C CNN
+F 3 "~" H 13250 8400 50  0001 C CNN
+	1    13250 8400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12950 7900 12950 8000
+Wire Wire Line
+	12150 8000 12950 8000
+Connection ~ 12950 8000
+Wire Wire Line
+	12950 8000 12950 8100
+Wire Wire Line
+	13350 7900 13350 8000
+Wire Wire Line
+	12950 8000 13350 8000
+Connection ~ 13350 8000
+Wire Wire Line
+	13350 8000 13350 8100
+Connection ~ 13150 7800
+Wire Wire Line
+	13150 7800 13250 7800
+Wire Wire Line
+	13050 7800 13150 7800
+Connection ~ 13150 8200
+Wire Wire Line
+	13150 8200 13250 8200
+Wire Wire Line
+	13050 8200 13150 8200
+Wire Wire Line
+	13150 7800 13150 8200
+Wire Wire Line
+	13150 7000 13150 7800
+$Comp
+L Connector_Generic:Conn_01x01 Row551
+U 1 1 5BF09B41
+P 13950 7900
+F 0 "Row551" H 13950 7800 50  0000 C CNN
+F 1 "Conn_01x01" V 13825 7812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13950 7900 50  0001 C CNN
+F 3 "~" H 13950 7900 50  0001 C CNN
+	1    13950 7900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col551
+U 1 1 5BF09B48
+P 14250 7600
+F 0 "Col551" H 14250 7700 50  0000 C CNN
+F 1 "Conn_01x01" V 14125 7512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14250 7600 50  0001 C CNN
+F 3 "~" H 14250 7600 50  0001 C CNN
+	1    14250 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row552
+U 1 1 5BF09B4F
+P 13950 8100
+F 0 "Row552" H 13950 8200 50  0000 C CNN
+F 1 "Conn_01x01" V 13825 8012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 13950 8100 50  0001 C CNN
+F 3 "~" H 13950 8100 50  0001 C CNN
+	1    13950 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row553
+U 1 1 5BF09B56
+P 14750 7900
+F 0 "Row553" H 14750 8000 50  0000 C CNN
+F 1 "Conn_01x01" V 14625 7812 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14750 7900 50  0001 C CNN
+F 3 "~" H 14750 7900 50  0001 C CNN
+	1    14750 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Row554
+U 1 1 5BF09B5D
+P 14750 8100
+F 0 "Row554" H 14750 8000 50  0000 C CNN
+F 1 "Conn_01x01" V 14625 8012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14750 8100 50  0001 C CNN
+F 3 "~" H 14750 8100 50  0001 C CNN
+	1    14750 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col552
+U 1 1 5BF09B64
+P 14450 7600
+F 0 "Col552" H 14450 7500 50  0000 C CNN
+F 1 "Conn_01x01" V 14325 7512 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14450 7600 50  0001 C CNN
+F 3 "~" H 14450 7600 50  0001 C CNN
+	1    14450 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col553
+U 1 1 5BF09B6B
+P 14250 8400
+F 0 "Col553" H 14250 8300 50  0000 C CNN
+F 1 "Conn_01x01" V 14125 8312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14250 8400 50  0001 C CNN
+F 3 "~" H 14250 8400 50  0001 C CNN
+	1    14250 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Col554
+U 1 1 5BF09B72
+P 14450 8400
+F 0 "Col554" H 14450 8500 50  0000 C CNN
+F 1 "Conn_01x01" V 14325 8312 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 14450 8400 50  0001 C CNN
+F 3 "~" H 14450 8400 50  0001 C CNN
+	1    14450 8400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14150 7900 14150 8000
+Wire Wire Line
+	13350 8000 14150 8000
+Connection ~ 14150 8000
+Wire Wire Line
+	14150 8000 14150 8100
+Wire Wire Line
+	14550 7900 14550 8000
+Wire Wire Line
+	14150 8000 14550 8000
+Connection ~ 14550 8000
+Wire Wire Line
+	14550 8000 14550 8100
+Connection ~ 14350 7800
+Wire Wire Line
+	14350 7800 14450 7800
+Wire Wire Line
+	14250 7800 14350 7800
+Connection ~ 14350 8200
+Wire Wire Line
+	14350 8200 14450 8200
+Wire Wire Line
+	14250 8200 14350 8200
+Wire Wire Line
+	14350 7800 14350 8200
+Wire Wire Line
+	14350 7000 14350 7800
+$Comp
+L Connector_Generic:Conn_01x01 Row111
+U 1 1 5B8A59A9
+P 9150 3100
+F 0 "Row111" H 9150 3000 50  0000 C CNN
+F 1 "Conn_01x01" V 9025 3012 50  0001 R CNN
+F 2 "Footprints:Wirepad" H 9150 3100 50  0001 C CNN
+F 3 "~" H 9150 3100 50  0001 C CNN
+	1    9150 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9350 3100 9350 3200
+$EndSCHEMATC
