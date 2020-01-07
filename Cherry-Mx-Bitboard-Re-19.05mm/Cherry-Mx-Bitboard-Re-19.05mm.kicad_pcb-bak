@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 24)
-    (tracks 7)
+    (tracks 5)
     (zones 0)
     (modules 11)
     (nets 4)
@@ -40,7 +40,7 @@
   )
 
   (setup
-    (last_trace_width 0.8)
+    (last_trace_width 0.3)
     (trace_clearance 0.3)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -103,7 +103,7 @@
 
   (net_class Default "これはデフォルトのネット クラスです。"
     (clearance 0.3)
-    (trace_width 0.8)
+    (trace_width 0.3)
     (via_dia 0.8)
     (via_drill 0.4)
     (uvia_dia 0.3)
@@ -269,7 +269,7 @@
   )
 
   (module Footprints:Wirepad (layer B.Cu) (tedit 5B9CC082) (tstamp 5B9EDCC9)
-    (at 100.145 51.4)
+    (at 100.39 51.4)
     (path /5BCDE34F)
     (fp_text reference Row113 (at 0 -1.778) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -347,8 +347,6 @@
 
   (segment (start 98.835 48.86) (end 98.86 48.86) (width 0.3) (layer B.Cu) (net 1) (status 30))
   (via (at 98.343115 57.735115) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (status 30))
-  (segment (start 88.517792 46.315) (end 97.345 46.315) (width 0.8) (layer B.Cu) (net 2))
-  (segment (start 87.245 46.315) (end 88.517792 46.315) (width 0.8) (layer B.Cu) (net 2))
   (segment (start 85.15 51.14) (end 85.41 51.4) (width 0.3) (layer B.Cu) (net 3) (status 30))
   (segment (start 85.15 48.86) (end 85.15 51.14) (width 0.3) (layer B.Cu) (net 3) (status 30))
   (segment (start 85.15 51.66) (end 85.41 51.4) (width 0.3) (layer B.Cu) (net 3) (status 30))
