@@ -306,7 +306,7 @@
   (gr_text v1.1 (at 99.345 60.615 45) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text Protocases.com (at 92.245 59.715) (layer B.SilkS)
+  (gr_text ProtoCases.com (at 92.245 59.715) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_arc (start 101.545 54.815) (end 101.945 54.815) (angle -180) (layer Edge.Cuts) (width 0.1))

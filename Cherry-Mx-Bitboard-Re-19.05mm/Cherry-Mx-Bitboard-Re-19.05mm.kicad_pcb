@@ -193,7 +193,7 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 2 2) (drill 2) (layers *.Cu *.Mask))
   )
 
-  (module Footprints:Wirepad (layer B.Cu) (tedit 5E145D5E) (tstamp 5E14BCA5)
+  (module Footprints:Wirepad (layer B.Cu) (tedit 5E1488F2) (tstamp 5E14BCA5)
     (at 87.245 46.315)
     (path /5B8A669A)
     (fp_text reference Col111 (at 0 -1.778) (layer B.SilkS) hide
@@ -202,11 +202,11 @@
     (fp_text value Conn_01x01 (at 0 1.778) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu B.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 Col1))
   )
 
-  (module Footprints:Wirepad (layer B.Cu) (tedit 5E145D59) (tstamp 5E14BAE6)
+  (module Footprints:Wirepad (layer B.Cu) (tedit 5E1488EE) (tstamp 5E14BAE6)
     (at 97.145 46.315)
     (path /5BCE08C8)
     (fp_text reference Col112 (at 0 -1.778) (layer B.SilkS) hide
@@ -215,11 +215,11 @@
     (fp_text value Conn_01x01 (at 0 1.778) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu B.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 Col1))
   )
 
-  (module Footprints:Wirepad (layer B.Cu) (tedit 5E145D6C) (tstamp 5B9EE5D8)
+  (module Footprints:Wirepad (layer B.Cu) (tedit 5E1488FF) (tstamp 5B9EE5D8)
     (at 87.245 61.315)
     (path /5BD12023)
     (fp_text reference Col113 (at 0 -1.778) (layer B.SilkS) hide
@@ -228,11 +228,11 @@
     (fp_text value Conn_01x01 (at 0 1.778) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu B.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 Col1))
   )
 
-  (module Footprints:Wirepad (layer B.Cu) (tedit 5E145D70) (tstamp 5E14C137)
+  (module Footprints:Wirepad (layer B.Cu) (tedit 5E148904) (tstamp 5E14C137)
     (at 97.145 61.315)
     (path /5BD1233F)
     (fp_text reference Col114 (at 0 -1.778) (layer B.SilkS) hide
@@ -241,11 +241,11 @@
     (fp_text value Conn_01x01 (at 0 1.778) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu B.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 Col1))
   )
 
-  (module Footprints:Wirepad (layer B.Cu) (tedit 5E145D64) (tstamp 5B9EDCE1)
+  (module Footprints:Wirepad (layer B.Cu) (tedit 5E1488F7) (tstamp 5B9EDCE1)
     (at 85.15 48.86)
     (path /5B8A59A9)
     (fp_text reference Row111 (at 0 -1.778) (layer B.SilkS) hide
@@ -254,11 +254,11 @@
     (fp_text value Conn_01x01 (at 0 1.778) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu B.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask)
       (net 3 Row1))
   )
 
-  (module Footprints:Wirepad (layer B.Cu) (tedit 5E145D68) (tstamp 5B9EDC81)
+  (module Footprints:Wirepad (layer B.Cu) (tedit 5E1488FB) (tstamp 5B9EDC81)
     (at 85.145 58.615)
     (path /5B8A9836)
     (fp_text reference Row112 (at 0 -1.778) (layer B.SilkS) hide
@@ -267,11 +267,11 @@
     (fp_text value Conn_01x01 (at 0 1.778) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu B.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask)
       (net 3 Row1))
   )
 
-  (module Footprints:Wirepad (layer B.Cu) (tedit 5E145D49) (tstamp 5B9EDCC9)
+  (module Footprints:Wirepad (layer B.Cu) (tedit 5E1488E8) (tstamp 5B9EDCC9)
     (at 100.145 51.4)
     (path /5BCDE34F)
     (fp_text reference Row113 (at 0 -1.778) (layer B.SilkS) hide
@@ -280,11 +280,11 @@
     (fp_text value Conn_01x01 (at 0 1.778) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu B.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask)
       (net 3 Row1))
   )
 
-  (module Footprints:Wirepad (layer B.Cu) (tedit 5E145D74) (tstamp 5E14C15B)
+  (module Footprints:Wirepad (layer B.Cu) (tedit 5E14890A) (tstamp 5E14C15B)
     (at 100.145 58.415)
     (path /5BCDE64E)
     (fp_text reference Row114 (at 0 -1.778) (layer B.SilkS) hide
@@ -293,7 +293,7 @@
     (fp_text value Conn_01x01 (at 0 1.778) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu B.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask)
       (net 3 Row1))
   )
 
