@@ -113,7 +113,7 @@
     (add_net Row1)
   )
 
-  (module Footprints:1N4148W (layer B.Cu) (tedit 5E146025) (tstamp 5E14E96A)
+  (module Footprints:1N4148W (layer B.Cu) (tedit 5E15B11F) (tstamp 5E14E96A)
     (at 88.645 57.615)
     (path /5B954373)
     (fp_text reference D1 (at 4.07 0.06) (layer B.SilkS) hide
